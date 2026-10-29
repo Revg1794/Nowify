@@ -129,7 +129,7 @@ Uses normal controls (`CONTROLS_AND_FEEL.md`) plus:
 ---
 
 ## 10. Build Order
-1. Basic shootout: rounds, alternating shooters, shot clock, goal/save, scoreboard (fits right after the vertical slice — great reveal content)
+1. Basic shootout: rounds, alternating shooters, shot clock, goal/save, scoreboard, **basic AI shooter + AI goalie** (player vs AI — playtest & reveal content)
 2. Goalie attacks + shooter attacks + Downed/Kill outcomes
 3. Health carry-over + backups + skater-in-net
 4. Items (Roulette first, then Draft/Loadout)
@@ -143,3 +143,4 @@ Uses normal controls (`CONTROLS_AND_FEEL.md`) plus:
 - Shot clock: **8 seconds**.
 - Goalie range: **anywhere in his defensive zone** (starting point; revisit after playtests).
 - **Basic Shootout of Death is part of the reveal build** for the son (build step 1, then step 2 if time allows).
+- **Playtests are player vs AI.** The first shootout build must include a basic **AI shooter** and **AI goalie** (§9 basics), so the owner can test alone before the reveal and the son can play it vs AI. Human-vs-human couch shootouts come after.
