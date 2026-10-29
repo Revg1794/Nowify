@@ -15,16 +15,17 @@ Audio sells the brutality. A hit without a bone crunch and crowd roar is just tw
 
 ## 2. Music
 
-### Overall Style: "Industrial Blood-Sport"
-- **Core:** industrial metal, sludge/groove metal, hardcore punk, heavy distorted synths.
+### Overall Style: "Hip-Hop & Rock Blood-Sport"
+- **Core:** hard-hitting **hip-hop** (heavy 808s, trap drums, aggressive verses) and **rock** (hard rock, heavy riffs, rap-rock crossovers).
+- Gritty, grounded production — distorted bass, crowd noise sampled into beats, stadium-rock drums.
 - **Hockey identity:** the classic **arena organ** — but twisted (detuned, distorted, sinister). Organ stings for goals, kills, fights.
 - **Broadcast identity:** Meridian's clean, corporate TV jingles — deliberately cheerful, contrasting with the violence.
 
 ### Where Music Plays
 | Moment | Music |
 |---|---|
-| Main menu | Meridian broadcast theme → slow industrial build |
-| Menus / creation suite | Low-key industrial loops |
+| Main menu | Meridian broadcast theme → slow hip-hop/rock build |
+| Menus / creation suite | Low-key hip-hop beats / instrumental rock loops |
 | Team intros / walkouts | Each team's anthem (8 + All-Stars) |
 | In-game | **Adaptive**: arena crowd + organ during play; music swells with Hype |
 | Goals | Team's goal song + horn |
@@ -37,27 +38,27 @@ Audio sells the brutality. A hit without a bone crunch and crowd roar is just tw
 | Hype Tier | Music layer |
 |---|---|
 | 0 | Arena ambience, organ noodling, PA |
-| 1 | Low drum pulse |
-| 2 | Bass + guitars |
+| 1 | Low drum / 808 pulse |
+| 2 | Bass + guitars / beat drops in |
 | 3 | Full track (Network Event) |
 | Max | Finisher sting, everything drops out → impact → crowd explodes |
 
 ### Team Anthems & Goal Songs
 | Team | Anthem style | Goal horn |
 |---|---|---|
-| Detroit Ironworkers | Heavy industrial, factory machinery percussion | Factory whistle |
-| Gary Slagdogs | Sludge metal, dirty and slow | Steam blast |
-| Winnipeg Wardens | Chain-gang chant over hardcore drums | Prison siren |
-| Las Vegas High Rollers | Glitzy brass + slot jingles (ironic) | Jackpot bells |
-| New Orleans Drowned | Brass band gone dark, swampy blues-metal | Ship horn |
-| Anchorage Butchers | Cold, droning doom metal | Bone saw + horn |
-| Bayonne Dockrats | Street punk, scrappy and fast | Tugboat horn |
-| Sudbury Deep | Low drones, tribal drums, mining clanks | Mine evacuation alarm |
-| Meridian All-Stars | Polished corporate synth-pop that turns menacing | Network jingle |
+| Detroit Ironworkers | Detroit-style hard hip-hop, factory-clank percussion in the beat | Factory whistle |
+| Gary Slagdogs | Dirty, heavy rock — sludgy riffs | Steam blast |
+| Winnipeg Wardens | Chain-gang chant over hard rap-rock drums | Prison siren |
+| Las Vegas High Rollers | Flashy, bragging trap with brass and slot jingles (ironic) | Jackpot bells |
+| New Orleans Drowned | Bounce-style hip-hop with dark brass | Ship horn |
+| Anchorage Butchers | Cold, slow, heavy rock | Bone saw + horn |
+| Bayonne Dockrats | Raw, fast underdog rock / punk-rap | Tugboat horn |
+| Sudbury Deep | Dark, minimal hip-hop with mining clanks and deep drums | Mine evacuation alarm |
+| Meridian All-Stars | Polished, radio-friendly pop-rap that turns menacing | Network jingle |
 | Custom teams | Pick from library or **custom file** | Pick from horn library |
 
 ### Custom Soundtrack
-- **Custom music folder:** drop your own MP3/OGG/WAV files in a folder → use as menu music, goal songs, or in-game playlist. (Personal project = use whatever you like.)
+- **Custom music folder (CONFIRMED):** drop your own MP3/OGG/WAV files in a folder → use as menu music, goal songs, or in-game playlist. (Personal project = use whatever you like.)
 
 ---
 
@@ -99,6 +100,13 @@ Audio sells the brutality. A hit without a bone crunch and crowd roar is just tw
 ### Custom Player Names
 - When creating a custom player, the game generates announcer lines saying the name using **local TTS** — Dale and the PA can actually call your custom player's name.
 - Nickname picker as backup ("The Rookie," "The Butcher," "Number 13").
+
+### Owner & Son Voice Cameos (CONFIRMED)
+- **Arena PA announcer** — voiced by the owner and/or son (goal calls, penalties, "Last minute of play in the period…").
+- Optional extra cameos: a crowd heckler, a Meridian sponsor ad read, the Zamboni driver, a hidden easter-egg line.
+- **Recording setup ($0):** phone or any USB mic, quiet room with soft furnishings (closet full of clothes works), record WAV.
+  Cleanup in free tools (Audacity) or with Claude-scripted processing; add arena reverb in Unreal.
+- Claude generates the **script list** (every PA line needed, with context and delivery notes) so recording is one fun session.
 
 ### Player Voices
 - Grunts, effort sounds, pain, trash talk, celebrations — a set per voice type (custom players pick one).
@@ -152,7 +160,7 @@ Audio sells the brutality. A hit without a bone crunch and crowd roar is just tw
 
 | Need | Source |
 |---|---|
-| Music tracks & anthems | **ComfyUI** local music models (e.g. ACE-Step for full songs with vocals; Stable Audio Open for loops/stings) |
+| Music tracks & anthems | **ComfyUI** local music models (e.g. ACE-Step for full hip-hop/rock songs with vocals; Stable Audio Open for loops/stings) |
 | Organ stings | ComfyUI + free organ samples/soundfonts |
 | SFX | **Freesound (CC0)**, Stable Audio Open, **home foley** (smashing ice, hitting pads, slapping hockey sticks) |
 | Announcers & voices | **Local TTS** in ComfyUI (check model licenses); or record our own |
@@ -161,7 +169,7 @@ Audio sells the brutality. A hit without a bone crunch and crowd roar is just tw
 
 ---
 
-## Open Questions
-- Music style: industrial metal / punk direction OK, or a different genre (hip-hop, rock, electronic)?
-- Custom music folder — wanted?
-- Should the owner/son voice any characters (e.g. PA announcer cameo)?
+## Decisions (Oct 2026)
+- Music: **hip-hop and rock** (organ kept for hockey identity).
+- Custom music folder: **yes**.
+- Owner and son voice cameos: **yes** — Arena PA announcer (+ optional extras).
