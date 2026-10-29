@@ -39,7 +39,7 @@ moments, and makes the Crowd Hype system feel like it controls the arena.
   | **Common** | Bottles, rink salt, hockey tape (taped knuckles), smelling salts | Crowd throws |
   | **Uncommon** | Nail-studded stick, chain, weighted puck, padlock-in-sock, painkillers | Crowd throws / arena delivery |
   | **Rare** | Sledgehammer stick, razor stick, barbed-wire puck, riot padding, adrenaline shot | Sponsor drops |
-  | **Legendary** | Network-only items (e.g. chainsaw-free but brutal: skate-blade stick, flare puck pack) | Network Events (Tier 3 / Max Hype) |
+  | **Legendary** | Network-only items (e.g. skate-blade stick, flare puck pack, bear trap) | Network Events (Tier 3 / Max Hype) |
 
 - **Hype tier caps the rarity:** Tier 0–1 → Common/Uncommon · Tier 2 → up to Rare · Tier 3 → up to Legendary.
 - **Weight modifiers:**
