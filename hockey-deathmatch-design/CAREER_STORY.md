@@ -69,8 +69,15 @@ No cinematic cutscenes. Playable as a **skater or a goalie** (same story, differ
 4. **The Offer:** a Meridian rep (texts) offers money to lose a game. First big choice.
 5. **Leaked footage:** a "hidden camera" locker room segment airs — Frankie arguing with Holloway's people.
 6. **Playoffs vs Las Vegas at The Jackpot:** refs look away while Ace (and his teammates) target Frankie/Tommy.
-7. **End of Act 1:** your mentor is killed on live ice. The network calls it an accident. Dale cuts to commercial.
-   You're named captain (skater) or starting goalie (goalie path).
+7. **End of Act 1 — "The Accident" (preventable):**
+   - **Mentor dies (default):** your mentor is killed on live ice. The network calls it an accident. Dale cuts to commercial.
+     You're named captain (skater) or starting goalie (goalie path).
+   - **Mentor saved:** if you protect your mentor during the playoff game (keep them above a health threshold — block hits,
+     fight their attackers, take the hits yourself — **and** win the game), they survive, badly injured.
+     - Holloway's people "retire" a different Dockrat instead (still a gut punch).
+     - The mentor is forced off the ice but becomes an **off-ice ally** in Acts 2–3 (insider knowledge, extra texts/segments).
+     - Unlocks bonus content: mentor joins Knuckles' plan; in the **Live Feed** and **Burn It Down** endings the mentor gets a final moment.
+     - You're still named captain / starting goalie (mentor hands it to you).
 
 ### Act 2 — Ratings War (Season 2)
 1. **The face of the Dockrats.** Sponsors (VoltRush, PainAway) come calling — take deals or refuse.
@@ -128,7 +135,7 @@ No cinematic cutscenes. Playable as a **skater or a goalie** (same story, differ
 
 ---
 
-## Open Questions
-- Is 3 seasons / ~40 games the right length, or shorter?
-- Should the mentor's death be fixed story, or preventable with a perfect playoff game?
-- Any ending you'd cut or add?
+## Decisions (Oct 2026)
+- Length: **3 seasons** (~40 games) — approved.
+- Mentor's death: **preventable** (see Act 1, step 7).
+- Endings: approved as-is.
