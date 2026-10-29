@@ -141,6 +141,20 @@ Toggle previews on: jersey chest, shoulder, helmet, **center ice**, boards, bann
 | Mascot | Pick from library (rat, dog, bear, hooded figure, butcher…) — appears in the stands, on the jumbotron, in intros (and *maybe* gets hit by a puck) |
 | Jumbotron intro | Templates (fire, smoke, factory, prison lockdown, glitch) using your logo & colors |
 
+### Mascots on the Ice (DECISION: yes, sometimes)
+Mascots are people in suits — grounded, a little sad, very RHL.
+| Moment | What happens |
+|---|---|
+| **Intermission Chaos** | Between periods: mascot races, mascot brawls, or the mascot rides the Zamboni (watchable or skippable) |
+| **Mascot Invasion** (rare, during play) | Home mascot runs onto the ice for ~10 s at Hype Tier 2+ — can **drop an item** (Spawn Director delivery), get in the way, and **be checked** for a Hype bonus (crowd boos or cheers) |
+| **Goal / win celebrations** | Mascot appears on the jumbotron or bangs on the glass |
+| **Network Event tie-ins** | Some arenas: mascot leads the event (e.g. the Dockrats' rat swings from the crane) |
+
+- Mascots get knocked down and limp off (no deaths — they're staff; gore off for mascots).
+- Mascots are never targeted by AI on purpose (AI only hits them if they're in the way).
+- Setting: **Mascots on Ice: Off / Rare (default) / Often**.
+- Every RHL team gets a mascot too (e.g. Ironworkers' "Rusty," Dockrats' "The Rat," Butchers' "Cleaver," Wardens' "Officer Cuffs," High Rollers' "Lucky Chip").
+
 ---
 
 ## 8. Roster
@@ -166,7 +180,12 @@ Sliders that shape how AI-controlled players on your team behave (uses `AI.md` s
 
 ## 11. Franchise Integration
 - Add your team as an **expansion team** when starting a Franchise (league grows to 9–12 teams).
-- **Expansion Draft** option: pick one unprotected player from each existing team to build your roster.
+- **Expansion Draft (DECISION: yes):**
+  - Each existing team **protects** a list (default: 7 skaters + 1 goalie; setting: 5/7/9 skaters).
+  - Stars can be protected automatically (setting: **Protect Stars: On / Off**).
+  - You pick **one unprotected player from each team** (broadcast-styled draft board, Dale & Knuckles commentary).
+  - Fill the rest with custom players, free agents, or auto-generated players.
+  - Co-op franchise: both owners alternate picks (or co-sign each pick).
 - Your custom arena becomes your home arena; upgrades in Franchise modify it.
 
 ---
@@ -197,7 +216,7 @@ Sliders that shape how AI-controlled players on your team behave (uses `AI.md` s
 
 ---
 
-## Open Questions
-- 32 layers per logo enough?
-- Mascots: in the stands only, or should they ever come onto the ice (e.g. intermission chaos)?
-- Expansion Draft — wanted?
+## Decisions (Oct 2026)
+- Logo layers: **32** (expand later if needed).
+- **Mascots come onto the ice sometimes** (Rare by default; see §7).
+- **Expansion Draft: yes** (see §11).

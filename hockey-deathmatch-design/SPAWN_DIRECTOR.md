@@ -75,6 +75,7 @@ moments, and makes the Crowd Hype system feel like it controls the arena.
   | The Shaft | Ore carts on rails |
   | Meridian Dome | Drone delivery with camera spotlight |
 - **Universal deliveries (any arena):** Crowd throws, Sponsor drops, **Zamboni of Doom** (intermission/event), **Penalty box loot**.
+- **Mascot Invasion** (rare, Hype Tier 2+): home mascot runs onto the ice and drops an item (see `CUSTOM_TEAM.md` §7).
 
 ---
 
