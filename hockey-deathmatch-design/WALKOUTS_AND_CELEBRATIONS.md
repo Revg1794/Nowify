@@ -85,7 +85,7 @@ Personal set, pre-equipped on his profile for the reveal (also unlockable for an
 | **Shutout / win** | Stands in the crease with arms crossed while teammates skate to him |
 | **Goalie goal** | Points to the "13" on his mask, then to the crowd |
 
-(Owner approves before the reveal — and can let him pick new ones afterward.)
+(Approved by the owner. He can pick new ones after the reveal.)
 
 ---
 
@@ -131,7 +131,7 @@ Personal set, pre-equipped on his profile for the reveal (also unlockable for an
 
 ---
 
-## Open Questions
-- "Brick Wall" personal celebrations — like them, or tweak?
-- Any star walkout/celebration you'd change?
-- Kill celebrations — keep, or tone down?
+## Decisions (Oct 2026)
+- **"Brick Wall" personal set: approved as-is** (§5) — pre-equipped for the reveal.
+- Star walkouts & celebrations: **approved as-is** (§3–4).
+- **Kill celebrations: keep** (on the fly, full intensity; Gore setting still applies to visuals).
