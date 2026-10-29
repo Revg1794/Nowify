@@ -95,7 +95,7 @@ Every mode is framed as a **Meridian broadcast** (show name, intro, announcers) 
 - **Platform:** PC only. **No online.** No console release planned.
 - **Launch modes:** Career, Franchise, Challenges, Penalty Shootout of Death, Broadcast/Replay mode.
 - **Core supporting modes:** Exhibition (incl. local couch multiplayer), Practice / tutorial.
-- **Career presentation:** fully voiced cutscenes (to confirm — see below).
+- **Career presentation:** **broadcast-style** — told through Meridian TV segments (pre-game shows, interviews, news tickers, jumbotron, stills). No cinematic cutscenes.
 - **Cut / not planned:** all online modes (Ranked, Quick Match, The League, online co-op), crossplay.
 - **Maybe later (offline):** Survival, Fight Night, Party modes as local/exhibition variants.
 
@@ -105,11 +105,10 @@ Every mode is framed as a **Meridian broadcast** (show name, intro, announcers) 
 |---|---|
 | **Vertical slice** | Exhibition (3v3, one arena), Practice |
 | **Alpha** | Penalty Shootout of Death, Challenges, Broadcast/Replay mode |
-| **Beta** | Franchise, Career (story + voiced cutscenes) |
+| **Beta** | Franchise, Career (story via broadcast presentation) |
 | **Post-launch (optional)** | Survival, Fight Night, Party variants |
 
-No online = no servers, netcode, anti-cheat, or moderation. Big savings — that budget goes to Career presentation and art quality.
+No online = no servers, netcode, anti-cheat, or moderation. Big time savings — that effort goes to Career presentation and art quality.
 
 ## Open Questions
-- Confirm Career cutscenes are fully voiced (vs. broadcast-style).
-- Voice casting approach (actors, budget).
+- Voices: local TTS via ComfyUI, or record our own lines.

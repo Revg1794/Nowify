@@ -2,6 +2,8 @@
 
 > **Title:** RHL — Redline Hockey League (see `TITLE_IDEAS.md` for history and name checks)
 > **Engine:** Unreal Engine 5 · **DCC:** Blender · **Target hardware (dev):** PC with RTX 5080
+> **Project type:** Personal passion project for the owner and his son. **$0 budget** — only cost is Claude usage. Free tools and free/AI-generated assets only.
+> **Toolchain:** Unreal Engine 5, Blender, ComfyUI (local AI generation on the RTX 5080), Claude Code.
 > **Platform:** PC only (Windows). **Offline only** — no online multiplayer, no console release planned.
 > **Status:** Brainstorm / pre-production. This doc is the handoff for Claude Code sessions on the dev PC.
 
@@ -46,6 +48,11 @@ A media network runs the league and rewards spectacle: the more brutal the match
 | Leg injury | Reduced top speed / acceleration |
 | Concussion | Blurred / swimming vision, delayed controls |
 | Bleeding | Health drains until you reach the bench — or die |
+
+### Violence Settings
+- **Gore level:** Off / Low / Full (blood amount, dismemberment-style effects, injury visuals).
+- **Finisher camera:** On / Off.
+- Lets the game scale for different ages and moods.
 
 ---
 
@@ -125,7 +132,7 @@ A media network runs the league and rewards spectacle: the more brutal the match
 Offline only. Full details in `GAME_MODES.md`.
 
 **Launch modes (chosen):**
-- **Career: "Death Waiver"** — story mode with fully voiced cutscenes
+- **Career: "Death Waiver"** — story mode with **broadcast-style presentation** (no cinematic cutscenes)
 - **Franchise: "Ownership"** — owner/GM, permadeath roster
 - **Challenges: "Highlight Reel"** — scripted scenarios
 - **Penalty Shootout of Death** — standalone mode + overtime tiebreaker
@@ -180,8 +187,25 @@ Offline only. Full details in `GAME_MODES.md`.
 | Players (faces/bodies) | MetaHuman | Model hockey gear, jerseys, pads to fit |
 | Environment materials | Quixel Megascans / Fab | Arena modular kit, blockouts |
 | Weapons & props | Blender modeling + texturing | Primary tool |
-| Animation | Mocap packs (Fab), Mixamo for prototyping | Retargeting & cleanup |
-| Hero assets | Freelance artist where it matters | Integration |
+| Animation | Free: Mixamo, UE5 sample animations (Game Animation Sample), free Fab packs | Retargeting & cleanup |
+| Concept art, textures, logos, UI | **ComfyUI** (local) | Apply to models / materials |
+| AI-generated 3D props | **ComfyUI** image-to-3D (e.g. Hunyuan3D / TRELLIS) | Retopology, UV, cleanup, LODs |
+
+### $0 Asset Pipeline (Blender + ComfyUI + free libraries)
+| Need | Free source |
+|---|---|
+| Characters | **MetaHuman** (free) + Blender for gear/jerseys |
+| Environments & surfaces | **Quixel Megascans / Fab** free content for Unreal |
+| Props / weapons | Blender modeling; ComfyUI image-to-3D for base meshes → Blender cleanup |
+| Textures & materials | ComfyUI (seamless textures, grime, decals, logos) + Megascans |
+| Concept art / reference | ComfyUI |
+| Logos, jerseys, sponsor ads, posters, UI | ComfyUI + Blender/UE text |
+| Animation | Mixamo, UE5 Game Animation Sample, free Fab packs |
+| Voices | Local TTS in ComfyUI (check each model's license) |
+| Music | Local music generation in ComfyUI (e.g. ACE-Step / Stable Audio Open) |
+| Sound effects | Freesound (CC0), Stable Audio Open, recorded at home |
+
+**Rule:** AI-generated assets go through the same review pipeline as everything else — AI output usually needs cleanup (retopology, UVs, texture fixes) before it looks published-quality.
 
 ### Asset Review Pipeline (every asset)
 1. **Reference board first** — real-world photos + published-game references (e.g. NHL 25, The Last of Us, Mortal Kombat 1).
@@ -192,7 +216,7 @@ Offline only. Full details in `GAME_MODES.md`.
    - Fail = auto-reject
 3. **Standardized lookdev renders** — turntable, neutral studio light, in-arena light, close-ups.
 4. **Visual critique against checklist** — material realism (roughness variation, wear, grime), silhouette, proportions, lighting response. Fix and re-render.
-5. **Human approval** — owner signs off on final renders. Periodic pro 3D artist review for hero assets.
+5. **Human approval** — owner (and son) sign off on final renders.
 
 ---
 
@@ -204,7 +228,8 @@ Offline only. Full details in `GAME_MODES.md`.
 - **Spawn Director:** decides what/where/when to spawn from score, Hype, and match time.
 - **Modular characters:** shared skeleton + morph targets + swappable gear meshes (required for star players AND custom players).
 - **Skeleton:** rig characters to UE5 mannequin skeleton for animation reuse.
-- **Voiced cutscenes:** MetaHuman Animator (facial capture from an iPhone or webcam) + Sequencer. Voice actors needed (Career + announcers).
+- **Broadcast presentation:** Career story told through the Meridian broadcast — pre-game shows, announcer segments, interviews, text/news tickers, jumbotron, still images. Sequencer for short in-engine broadcast shots.
+- **Voice:** local text-to-speech in ComfyUI (announcers, reporters, star players). Optional: owner/son record lines themselves.
 - **Replay system:** UE5 Replay system (DemoNetDriver) or a custom recorder of transforms/events; Sequencer-style camera tools for the editor; video export via Movie Render Queue.
 - **Automation:** Blender Python API + Unreal Python API / commandlets for asset import, validation, and review renders.
 - **Dev machine access:** Claude Code runs on the dev PC (or connects via Remote Control) with Unreal + Blender installed.
@@ -220,13 +245,11 @@ Offline only. Full details in `GAME_MODES.md`.
 5. **Modes** — exhibition polish, Practice, Penalty Shootout of Death, Challenges, Broadcast/Replay mode.
 6. **Creation suite** — custom player (modular characters) + custom team (logo editor, jerseys, arena options).
 7. **Franchise** — GM layer, permadeath roster, budgets.
-8. **Career** — story, voiced cutscenes, ratings economy, sponsors, star player roster.
+8. **Career** — story via broadcast presentation, ratings economy, sponsors, star player roster.
 
 ---
 
 ## 10. Open Questions
 
 - Trademark / Steam / domain check for "RHL" and "Redline Hockey League" (avoid confusion with NHL/AHL marks in logo design)
-- Team size / whether artists will be hired
-- Voice casting budget (Career cutscenes + announcers)
-- Monetization (premium? cosmetics via fictional sponsors?)
+- Gore level settings (see §2)
