@@ -187,7 +187,9 @@ Each team has a **style profile** (data asset) that shifts AI scoring weights.
 
 ---
 
+## Decisions (Oct 2026)
+- Bodyguard default: **Normal** (Low / High still selectable).
+- **Rookie mercy: yes** — on Rookie, AI won't finish off or deliberately kill badly injured players (it still hits and fights).
+
 ## Open Questions
-- Bodyguard default: Normal or High when the son is in net?
-- Should AI ever show "mercy" on Rookie (e.g. not kill injured players)?
-- Should AI players trash-talk (voice lines/taunts) during games?
+- AI trash talk — complexity discussed; awaiting decision (simple context "barks" recommended, added after core AI works).
