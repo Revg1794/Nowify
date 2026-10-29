@@ -34,6 +34,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 | Star designs | Names/personalities locked; **Edit Player** feature; **alternate looks** unlockable. Character sheets for 8 star skaters + 9 star goalies (look, gear, stats, voice), team colors & uniforms, readability test | `STAR_PLAYERS.md` |
 | Custom players | 12-step "Draft Combine" creator: origins, archetypes, body, face, marks, gear, point-buy ratings, traits, presentation, TTS name calls | `CUSTOM_PLAYER.md` |
 | Custom teams | "Expansion Franchise Application" flow; layered Logo Editor (32 layers, RHL shape library, grit filters); jersey designer; arena & presentation; expansion draft | `CUSTOM_TEAM.md` |
+| Items | 41 items (stick mods, puck mods, thrown, deployables, power-ups, goalie items) with first-pass numbers; health/status/Downed→Killed rules | `ITEMS.md` |
 | Crowd Hype | **Central mechanic** — fuels items, arena Network Events, finishers, Career ratings | `GAME_DESIGN.md` §4 |
 | Violence | Gore level setting: Off / Low / Full | `GAME_DESIGN.md` §2 |
 | Teams | 8 teams in **real cities** + Meridian All-Stars; **named star players** | `LEAGUE_AND_NETWORK.md` |
@@ -53,6 +54,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 2. `GAME_DESIGN.md` — the master design
 3. `CONTROLS_AND_FEEL.md` — needed first for the vertical slice
 4. `GOALIE.md`
+4a. `ITEMS.md` — combat numbers & all items
 4b. `SPAWN_DIRECTOR.md` — needed for the item system milestone
 4c. `AI.md` — basic AI needed for the vertical slice
 5. `ARENAS.md`

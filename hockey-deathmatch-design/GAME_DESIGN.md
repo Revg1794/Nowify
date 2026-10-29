@@ -58,6 +58,8 @@ A media network runs the league and rewards spectacle: the more brutal the match
 
 ## 3. Items & Power-Ups (Grounded & Brutal)
 
+> Full item list with numbers, health model, and status effects: `ITEMS.md`.
+
 ### Delivery
 - **Crowd throws** — fans hurl items over the glass (quality scales with Hype).
 - **Sponsor drops** — branded crates lowered from the jumbotron (fictional sponsors, satire).
