@@ -116,13 +116,13 @@ Play as a star in their signature moment.
 
 ---
 
-## 3. Network Specials (offline rotating challenges)
+## 3. Network Specials (CONFIRMED — offline rotating challenges)
 - A **daily/weekly generated challenge** made from random combinations (arena + weather + scenario + items + objective).
 - Fully offline (seeded by the date). Keeps the mode fresh after all packs are done.
 
 ---
 
-## 4. Challenge Editor (later, optional)
+## 4. Challenge Editor (CONFIRMED — after packs)
 - Build your own challenges with the same settings (teams, score, clock, injuries, items, objectives) and share as files.
 - Owner can make challenges for the son (or vice versa).
 
@@ -153,11 +153,11 @@ All challenges are data — new ones need no code. Objectives use the same game 
 5. Pack 6 (after star players exist)
 6. Pack 8 + Final Pack
 7. Network Specials
-8. Challenge Editor (optional)
+8. Challenge Editor
 
 ---
 
-## Open Questions
-- Any challenges to cut, change, or add?
-- Network Specials (rotating generated challenges) — wanted?
-- Challenge Editor — wanted?
+## Decisions (Oct 2026)
+- Challenge list: **approved as-is** (56 challenges, 8 packs).
+- **Network Specials: yes.**
+- **Challenge Editor: yes** (built after the packs; challenges shared as files).
