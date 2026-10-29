@@ -119,7 +119,11 @@ moments, and makes the Crowd Hype system feel like it controls the arena.
 - **Act 1 playoffs at The Jackpot:** odds tilted toward the High Rollers.
 - **Act 3:** Holloway's network rigs the Director **against you** — worse drops, more hazards near you, sponsor drops "accidentally" land near rivals.
 - **Live Feed path:** once Knuckles is on your side, he "glitches" a fair drop or two your way.
-- Rigging is shown in-world (announcer slips, suspicious camera cuts) so it feels like story, not unfair code.
+- **Rigging is SUBTLE** (decision): small weight/location shifts only (e.g. +10–20% better odds for the favored side,
+  drops land slightly closer to rivals). No on-screen tells, no obvious cheating — players should only *suspect* it.
+- **Payoff:** in Act 2, Knuckles' flash drive includes Meridian's **drop logs** proving the rigging — the player realizes
+  the odd luck they felt was real. (The Director's match log doubles as this in-story evidence.)
+- Rigging never stacks with heavy catch-up against the player in a way that makes a game unwinnable.
 
 ---
 
@@ -131,6 +135,9 @@ moments, and makes the Crowd Hype system feel like it controls the arena.
 - **Legendary Items:** On / Off
 - **Zamboni of Doom:** On / Off
 - **Goalie Items:** On / Off
+- **House Rules presets (decision):** save all item settings + item toggles + Director settings as a named preset
+  (e.g. "Couch Chaos," "Clean Hockey," "Goalie Night"). Pick a preset in Exhibition setup; set a default preset.
+  Stored via SaveGame and exportable as a file like custom teams.
 
 ---
 
@@ -206,7 +213,7 @@ Every 0.5s:
 
 ---
 
-## Open Questions
-- Default item frequency: is ~1 drop every 35–50 s right for a normal game, or more chaotic?
-- Should Career rigging be obvious (you can feel it) or subtle?
-- Should individual item toggles be part of a saved "house rules" preset for couch games?
+## Decisions (Oct 2026)
+- Default drop rate: **~1 every 35–50 s** (Normal).
+- Career rigging: **subtle** (proven later by in-story drop logs).
+- **House Rules presets:** yes.
