@@ -93,7 +93,7 @@ A media network runs the league and rewards spectacle: the more brutal the match
 | Riot padding | Damage resistance, slower |
 | Adrenaline shot | Speed burst (= harder hits) |
 
-### Goalie Item Set (separate pool)
+### Goalie Item Set (separate pool — full expanded list in `GOALIE.md`)
 - **Spiked blocker** — shots shatter on it; touching it causes bleeding
 - **Weighted leg pads** — can't be knocked down
 - **Crease traps** — chains/spikes around the crease
