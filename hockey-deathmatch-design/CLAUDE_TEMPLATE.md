@@ -9,7 +9,7 @@ Copy this file to the root of the `rhl-game` repo as `CLAUDE.md` — Claude Code
 
 ## Rules
 - Feel first, art second. Don't start hero art until the vertical slice feel is approved.
-- The son tests game feel (skating, shooting, goalie). The owner approves art and story.
+- SURPRISE: the son doesn't know about this project yet. Owner tests everything until the reveal; after that the son tests game feel (skating, shooting, goalie). Owner approves art and story.
 - Every asset goes through the review pipeline in `Docs/GAME_DESIGN.md` §7 before it's "done".
 - Data-driven design: items, sliders, teams, players, arenas live in Data Assets / Data Tables.
 - Reusable automation scripts (Blender, Unreal Python, ComfyUI workflows) go in `Tools/`.

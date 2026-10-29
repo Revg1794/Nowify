@@ -12,7 +12,8 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 - **Quality bar:** should *look and feel like a published game*. Every asset goes through a review pipeline.
 - **Platform:** **PC only (Windows), offline only.** No online, no consoles.
 - **Tools:** Unreal Engine 5 · Blender · ComfyUI (local AI on RTX 5080) · Claude Code.
-- **Players:** owner + son on the couch, **Xbox and PlayStation controllers**. The son is an experienced NHL-games player and **loves playing goalie** — he's the primary game-feel tester.
+- **Players:** owner + son on the couch, **Xbox and PlayStation controllers**. The son is an experienced NHL-games player and **loves playing goalie** — he'll be the primary game-feel tester **once he's told about it**.
+- 🤫 **SURPRISE PROJECT:** the son doesn't know about RHL yet. The owner will reveal it once there's something playable to show. Until then: the owner tests everything, and **nothing involving the son** (feel tests, voice recording) happens.
 
 ---
 
@@ -30,7 +31,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 | Franchise | Owner/GM, death-waiver contracts, finances, Meridian demands, feeder-league draft, memorial wall; play any position incl. goalie only | `FRANCHISE.md` |
 | Challenges | 56 challenges in 8 packs (incl. goalie, co-op, Legends), Bronze/Silver/Gold, cosmetic unlocks | `CHALLENGES.md` |
 | Menus & UI | "Meridian Broadcast Package" style; studio main menu as channel guide; scorebug + Ratings (Hype) meter; no floating health bars; player profiles | `UI.md` |
-| Star designs | Character sheets for 8 star skaters + 9 star goalies (look, gear, stats, voice), team colors & uniforms, readability test | `STAR_PLAYERS.md` |
+| Star designs | Names/personalities locked; **Edit Player** feature; **alternate looks** unlockable. Character sheets for 8 star skaters + 9 star goalies (look, gear, stats, voice), team colors & uniforms, readability test | `STAR_PLAYERS.md` |
 | Crowd Hype | **Central mechanic** — fuels items, arena Network Events, finishers, Career ratings | `GAME_DESIGN.md` §4 |
 | Violence | Gore level setting: Off / Low / Full | `GAME_DESIGN.md` §2 |
 | Teams | 8 teams in **real cities** + Meridian All-Stars; **named star players** | `LEAGUE_AND_NETWORK.md` |
@@ -144,11 +145,11 @@ Move them into a dedicated **private** repo:
 | # | Task | Done when… |
 |---|---|---|
 | 1 | **The Pit** (graybox) — rink at real NHL size (61 m × 26 m), boards, glass, two nets | Rink loads, correct scale |
-| 2 | **Skating movement** — custom movement mode: acceleration, glide, carving, hard stops, sprint/stamina | **Son approves the feel** |
+| 2 | **Skating movement** — custom movement mode: acceleration, glide, carving, hard stops, sprint/stamina | Owner approves (son re-tests after the reveal) |
 | 3 | **Behind-the-player camera** + puck/off-screen indicators | Readable at speed |
 | 4 | **Puck physics** + stickhandling + sticky assist | Puck feels clean |
 | 5 | **Passing + shooting** (wrist shot, slapshot) — Arcade scheme | Shots feel powerful |
-| 6 | **Goalie** — movement, directional saves, Perfect Save timing | **Son approves goalie feel** |
+| 6 | **Goalie** — movement, directional saves, Perfect Save timing | Owner approves (son tunes it after the reveal) |
 | 7 | **Body checks** — speed-scaled hit tiers, hitstop, camera shake, rumble | Hits feel brutal |
 | 8 | **One fight** — skill-based (jab, haymaker, block, parry) | Fight is fun start to finish |
 | 9 | **3v3 Exhibition** with basic AI + goals/score/periods | Full game playable |
@@ -167,7 +168,7 @@ Combat layer → Item system & Crowd Hype → Art pass (The Plant, MetaHuman pla
 ## 7. Working Rules for Claude Code
 
 1. **Feel first, art second.** No hero art until the vertical slice feel is approved.
-2. **Son is the feel tester** for skating, shooting, and goalie. Owner approves art and story.
+2. **Surprise rule:** the son doesn't know yet. Owner tests everything until the reveal; after the reveal, the son becomes the feel tester for skating, shooting, and goalie. Owner approves art and story. Voice-cameo recording happens after the reveal.
 3. **Every asset goes through the review pipeline** (`GAME_DESIGN.md` §7): reference → automated checks → standard renders → critique → owner approval.
 4. **Data-driven everything:** items, sliders, teams, players, arenas in Data Assets/Data Tables — tuning without code changes.
 5. **Save tokens:** use ComfyUI for bulk generation (free, local); use Claude for code, automation, and review. Keep scripts reusable in `Tools/`.

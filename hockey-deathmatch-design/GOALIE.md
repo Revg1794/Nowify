@@ -131,7 +131,7 @@ Goal: playing goalie should be as fun, deep, and brutal as playing a skater.
 - Saves need a large animation set (butterfly, stacks, glove/blocker saves, desperation dives). Use a smaller base set + **IK (Control Rig / Full Body IK)** to reach the exact puck position so saves look precise without hundreds of animations.
 - Puck prediction: calculate the shot trajectory on release to drive save timing windows and assist positioning.
 - Goalie movement: separate movement mode (shuffle, T-push, butterfly slide) — not skater movement.
-- **Feel-test owner: the son.** Goalie is tuned with his feedback.
+- **Feel-test owner: the son — after the surprise reveal.** Until then the owner tests; then goalie is tuned with the son's feedback.
 
 ---
 

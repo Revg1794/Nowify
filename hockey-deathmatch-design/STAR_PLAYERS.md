@@ -209,7 +209,56 @@ Goalie stats: **Reflexes / Positioning / Rebound Control / Crease Toughness** (1
 
 ---
 
-## Open Questions
-- Any star whose look, name, or personality you'd change?
-- Should stars have unlockable alternate looks (e.g. "Rookie Kowalski," "Legends" classic gear)?
-- Should the son have a say in which goalie gets built first?
+## 6. Edit Player (CONFIRMED)
+
+Like the "Edit Player" feature in sim hockey games: change **any** player in the league — stars, generic roster players, and custom players.
+
+### What can be edited
+| Category | Options |
+|---|---|
+| Appearance | Face sliders, body build, height/weight, skin, hair, beard, scars, tattoos, missing teeth, star features (toggleable — e.g. Frankie's missing ear) |
+| Gear | Helmet/cage/visor, gloves, pads, skates, tape, stick, signature props on/off; goalie mask design & pads |
+| Jersey | Number, nameplate, jersey wear |
+| Ratings | All attributes (Speed, Power, Hands, Toughness, etc. / goalie ratings) |
+| Style | Position, fight style, traits, handedness (shoots L/R; goalie catches L/R) |
+| Presentation | Voice type, walkout, celebration, taunts, alternate look |
+
+### Rules
+- **Star names & personalities stay fixed** (decision) — the editor changes looks, gear, and ratings, not who they are.
+- **Reset to Default** per player and for the whole league.
+- **"Edited" badge** on modified players (so default stats stay meaningful).
+- Edits saved to a **Roster File**: pick which roster file Exhibition/Franchise uses; export/import like custom teams.
+- **Career:** star appearances/gear edits apply; story-critical stats are locked so the story balance holds.
+- **Franchise:** full edits allowed (any roster file).
+
+### Tech note
+To make full editing work, star players are built on the **same modular character system** as custom players (shared skeleton,
+face/body morph targets, swappable gear, material layers). Each star's unique details (scars, missing ear, tattoos, signature props)
+are separate toggleable layers/meshes — this is the plan already, now a firm requirement.
+
+---
+
+## 7. Alternate Looks (CONFIRMED)
+
+Unlockable via Challenges (Legends pack + medals), Career, and Franchise milestones.
+
+| Star | Alternate looks |
+|---|---|
+| Walt Kowalski | **Rookie Kowalski** (young, full hair, autoworker jersey) · **Union Rep** (protest armband) |
+| Dusty Rourke | **Before the Burn** (no scars) · **Inferno** (fully scorched gear) |
+| Malachi Cross | **First Day** (fresh inmate, no tattoos) · **Pardoned** (civilian gear — Career ending variant) |
+| Ace Delacroix | **Fallen Ace** (scarred, after his Career fall) · **Vegas Gold** (all-gold gear) |
+| Marisol Batiste | **Flood Kid** (pond-league gear) · **High Tide** (dark teal storm gear) |
+| Gunnar Halvorsen | **Slaughterhouse** (apron over gear) · **Whiteout** (all-white winter gear) |
+| Frankie Moretti | **Prime Frankie** (young, both ears) · **Rat King** (crown-of-tape helmet) |
+| Cole Mercer | **Prototype** (unbranded test gear) · **Glitched** (cracked visor — Live Feed ending) |
+| Goalies | **Classic mask** (old-school fiberglass version of each mask) · **Battle-damaged** mask variant |
+| All stars | **Legends** set (retro gear style) · **Blood Season** (heavy wear/blood variant) |
+
+---
+
+## Decisions (Oct 2026)
+- Star **names and personalities: keep as-is**.
+- **Edit Player** feature: yes (see §6).
+- **Alternate looks:** yes (see §7).
+- Goalie build order: follows the plan (son not consulted — surprise project).
