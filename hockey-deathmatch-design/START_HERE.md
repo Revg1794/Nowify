@@ -29,6 +29,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 | AI | Team Brain + utility-scored player AI; real formations; fair (reaction delay, no rubber-banding); team personalities; Bodyguard teammates protect the goalie | `AI.md` |
 | Franchise | Owner/GM, death-waiver contracts, finances, Meridian demands, feeder-league draft, memorial wall; play any position incl. goalie only | `FRANCHISE.md` |
 | Challenges | 56 challenges in 8 packs (incl. goalie, co-op, Legends), Bronze/Silver/Gold, cosmetic unlocks | `CHALLENGES.md` |
+| Menus & UI | "Meridian Broadcast Package" style; studio main menu as channel guide; scorebug + Ratings (Hype) meter; no floating health bars; player profiles | `UI.md` |
 | Crowd Hype | **Central mechanic** — fuels items, arena Network Events, finishers, Career ratings | `GAME_DESIGN.md` §4 |
 | Violence | Gore level setting: Off / Low / Full | `GAME_DESIGN.md` §2 |
 | Teams | 8 teams in **real cities** + Meridian All-Stars; **named star players** | `LEAGUE_AND_NETWORK.md` |
@@ -56,6 +57,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 8. `DIFFICULTY_SLIDERS.md`
 8b. `FRANCHISE.md`
 8c. `CHALLENGES.md`
+8d. `UI.md`
 9. `CAREER_STORY.md`
 10. `AUDIO.md`
 11. `TITLE_IDEAS.md`
