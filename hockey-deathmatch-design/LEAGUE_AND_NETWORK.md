@@ -64,6 +64,30 @@ Each team = a playstyle + a home arena with its own hazard. Arenas are the main 
 
 ---
 
+## Star Players (named characters, fighting-game style)
+
+Real cities are kept. Every star is fictional. Each has a signature move (unlocked at max Crowd Hype),
+a rival, and stat ratings (Speed / Power / Hands / Toughness, 1–10).
+
+| Team | Star | Pos. | Who they are | Signature move | Rival |
+|---|---|---|---|---|---|
+| Detroit Ironworkers | **Walt "The Forklift" Kowalski** | D | 6'7" ex-autoworker, laid off, plays for his pension. Quiet, terrifying. | **Assembly Line** — pins a player to the boards and pounds them repeatedly. | Gunnar Halvorsen |
+| Gary Slagdogs | **Dusty "Cinders" Rourke** | RW | Burn scars from the mill, laughs while bleeding. Pure chaos. | **Branding** — drags an opponent's face along the scorching boards. | Ace Delacroix |
+| Winnipeg Wardens | **Malachi "Saint" Cross (#4471)** | C | Lifer, prays before every kill. Calm, religious tattoos. Playing for a pardon. | **Last Rites** — slow, ritual finisher; crowd goes silent then erupts. | Cole Mercer |
+| Las Vegas High Rollers | **Jaxon "Ace" Delacroix** | C | Network golden boy, perfect teeth, never gets penalized. Everyone hates him. | **The Fix** — refs ignore all his infractions for 20 seconds. | Dusty Rourke |
+| New Orleans Drowned | **Marisol "Riptide" Batiste** | LW | Fastest skater in the league. Grew up in the flooded wards. | **Undertow** — cracks the ice under an opponent and drags them through. | Elias Lund |
+| Anchorage Butchers | **Gunnar "Hooks" Halvorsen** | D | Ex-slaughterhouse worker, meat-hook taped to his stick. | **Hang 'Em** — hooks an opponent onto the wall's meat hooks. | Walt Kowalski |
+| Bayonne Dockrats | **Frankie "Rat King" Moretti** | LW | Aging captain, missing an ear, career-mode mentor. Master of dirty tricks. | **Rat Trap** — instantly drops 3 hidden traps around him. | Holloway (personal) |
+| Sudbury Deep | **Elias "Canary" Lund** | G | Star goalie. Silent miner, headlamp mask, never speaks on broadcast. | **Cave-In** — collapses the crease ceiling on attackers. | Marisol Batiste |
+| Meridian All-Stars | **Cole "The Product" Mercer** | C | Network-manufactured superstar. Media-trained, enhanced, Holloway's creation. Final boss. | **Prime Time** — slow-mo highlight kill; network cuts to commercial after. | Malachi Cross |
+
+Notes:
+- Ratings (1–10) and full roster depth get defined during the combat/balance milestone.
+- Stars can die in franchise mode (permadeath) — the network "replaces" them with a new hyped signing.
+- Each star needs: voice lines, intro walkout, celebration, custom gear, and a unique face (MetaHuman + custom scars/tattoos).
+
+---
+
 ## Career Mode Hook
 
 You're a nobody signed to the **Bayonne Dockrats** (worst team in the league) on a death waiver.
@@ -73,7 +97,5 @@ Final season: beat the Meridian All-Stars live on *Redline Live* — and decide 
 ---
 
 ## Open Questions
-- Real cities (above) vs. fully fictional cities?
 - How many teams at launch (8 is a good scope for a vertical slice → full game)?
-- Player-created teams?
-- Do star players have names/personalities (like fighting game characters)?
+- Decided: real cities, named star players, custom teams + custom players (see GAME_DESIGN.md §6).

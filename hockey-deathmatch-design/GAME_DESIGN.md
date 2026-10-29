@@ -129,7 +129,43 @@ A media network runs the league and rewards spectacle: the more brutal the match
 
 ---
 
-## 6. Art Direction & Asset Quality Standards
+## 6. Custom Player & Custom Team Creation
+
+### Custom Player
+- **Appearance:** face sculpting, body type, skin, hair/beard, scars, tattoos, missing teeth, broken nose, black eyes.
+- **Archetype / position:** Sniper, Playmaker, Two-Way, Enforcer, Goon, Goalie.
+- **Weight class (stat trade-off):** Light (speed, agility) / Middle / Heavy (momentum damage, toughness).
+- **Fight style:** Brawler (power), Boxer (speed/combos), Grappler (holds, jersey pulls).
+- **Backstory / origin (small perk):** Mill Worker, Ex-Con, Street Kid, Washed-Out Prospect, Ex-Military, Farm Kid.
+- **Gear:** helmet / cage / visor / **no helmet** (more Hype, more risk), pads, gloves, skates, stick + tape color, jersey number, nameplate.
+- **Personality:** signature finisher, celebrations, taunts, walkout intro, goal song, voice type.
+- **Persistent damage (career):** scars, missing teeth, and injuries accumulate and show on the model.
+- **Permadeath toggle** for career/franchise.
+
+### Custom Team
+- **City:** any real city (pick from a list or type one) + team name.
+- **Logo editor:** layered shapes, symbols, text, decals (grungy, distressed styles to match the art direction).
+- **Colors & jerseys:** primary/secondary/accent; home, away, and alternate jerseys; wear and blood decals.
+- **Home arena:** choose a base arena template + hazards + lighting + crowd type + ice condition.
+- **Presentation:** goal horn, entrance music, mascot, fictional sponsors on boards.
+- **Roster:** custom players + generated free agents; team tactics/playstyle.
+- **Use anywhere:** exhibition, online, and as your franchise in career mode (expansion team joining the RHL).
+
+### Sharing (online)
+- Upload / download / rate custom players, teams, and logos.
+- **Moderation required:** name/text filters, logo report system, takedowns — user-generated logos will be abused.
+
+### Tech Notes
+- **MetaHuman Creator is not available at runtime.** In-game customization needs a modular character system:
+  base MetaHuman-compatible bodies + morph targets for face/body + swappable meshes (hair, gear) + material
+  parameters/decals (skin, scars, tattoos, blood, wear). Plan this early — it affects the whole character pipeline.
+- Logo editor: layered decals rendered to a Render Target, saved as data (not images) so it can be shared small and re-rendered.
+- Save locally via SaveGame; online sharing needs a backend (later milestone).
+- Scars/injuries as material layers + decals driven by persistent player data.
+
+---
+
+## 7. Art Direction & Asset Quality Standards
 
 **Goal:** assets must look like a real published game. Grounded, gritty, realistic materials (worn, scratched, bloodied, grimy).
 
@@ -155,30 +191,32 @@ A media network runs the league and rewards spectacle: the more brutal the match
 
 ---
 
-## 7. Technical Plan
+## 8. Technical Plan
 
 - **Engine:** Unreal Engine 5 (Lumen, Nanite, Chaos physics, Niagara VFX, Control Rig / physics-based animation for hits & ragdolls).
 - **Abilities / items:** Gameplay Ability System (GAS) — buffs, cooldowns, replication.
 - **Data-driven items:** each item is a Data Asset (stats, rarity, duration, mesh, VFX). Balance via spreadsheets / data tables.
 - **Spawn Director:** decides what/where/when to spawn from score, Hype, and match time.
+- **Modular characters:** shared skeleton + morph targets + swappable gear meshes (required for star players AND custom players).
 - **Skeleton:** rig characters to UE5 mannequin skeleton for animation reuse.
 - **Automation:** Blender Python API + Unreal Python API / commandlets for asset import, validation, and review renders.
 - **Dev machine access:** Claude Code runs on the dev PC (or connects via Remote Control) with Unreal + Blender installed.
 
 ---
 
-## 8. Milestones
+## 9. Milestones
 
 1. **Vertical slice** — one arena, 3v3, skating, checking, passing, scoring, one kill mechanic. *If skating doesn't feel good, stop and fix it.*
 2. **Combat layer** — fights, injuries, momentum damage, ragdolls.
 3. **Item system** — GAS setup, 5–6 items, Spawn Director, Crowd Hype v1.
 4. **Art pass** — hero arena, MetaHuman players with gear, asset review pipeline live.
 5. **Modes** — exhibition polish, then online multiplayer prototype.
-6. **Career** — ratings economy, sponsors, permadeath franchise.
+6. **Creation suite** — custom player (modular characters) + custom team (logo editor, jerseys, arena options).
+7. **Career** — ratings economy, sponsors, permadeath franchise, star player roster.
 
 ---
 
-## 9. Open Questions
+## 10. Open Questions
 
 - Trademark / Steam / domain check for "RHL" and "Redline Hockey League" (avoid confusion with NHL/AHL marks in logo design)
 - Platforms beyond PC (consoles?)
