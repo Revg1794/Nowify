@@ -7,11 +7,22 @@ the main-menu monitors, *Year in Blood*, Career "leaked footage" — and a full 
 
 ## 1. Recording
 
-- **Always recording** every match (all modes except simmed games).
+- **Always recording** every match — including **simmed games** (see §1b).
 - Stored as **data, not video**: player/puck/item transforms, animation states, ragdoll poses, events (goals, hits, kills, saves, fights, items, Hype, hazards), camera cuts, audio cues.
   Small files; re-rendered from any camera later.
 - **Auto-tagging:** every event is tagged (who, what, where, Hype tier) so highlights can be found automatically.
 - **Storage:** last **20 full matches** kept automatically; **favorite/lock** to keep forever; saved clips kept separately.
+
+### 1b. Simmed Matches (DECISION: record them too)
+Simmed games don't play out physically, so they're recorded differently:
+| Layer | What's stored | Cost |
+|---|---|---|
+| **Sim Log** (always) | Full play-by-play events, box score, injuries/deaths, Hype swings, Three Stars | Tiny (KB) |
+| **Sim Highlights** (always) | Top moments (by Excitement Score) are **re-enacted** as short staged clips: AI players placed into the situation and played out in-engine for ~5–15 s, then recorded as normal replay data | A few seconds of processing per highlight, done in the background |
+| **Full Engine Sim** (optional per game) | The whole game is played AI-vs-AI in the background at high speed → a complete, real replay | Slower (minutes per game) — offered for **playoff/important games** or toggled on in settings |
+
+- Sim highlights feed the same places as played games: post-game, main menu monitors, Year in Blood, Memorial Wall ("final play").
+- Re-enacted clips are tagged "SIM" in the library.
 
 ---
 
@@ -147,7 +158,10 @@ Gore setting always applies.
 
 ---
 
+## Decisions (Oct 2026)
+- **Photo Mode: yes.**
+- Auto-keep last **20 matches**: yes.
+- **Record simmed matches too** (Sim Log + re-enacted Sim Highlights; optional Full Engine Sim) — see §1b.
+
 ## Open Questions
-- Photo Mode — wanted?
-- Telestrator — fun or skip?
-- Keep last 20 matches automatically — enough?
+- Telestrator — explained; awaiting keep/skip decision.
