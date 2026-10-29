@@ -178,4 +178,4 @@ All menus are fully **controller-first** (Xbox + PlayStation icons auto-switch),
 - "Commercial break" pause: **yes**, skippable with any button, and can be turned off.
 - Pre-made profiles (renameable):
   - **"The Captain"** — owner (skater, Arcade scheme, Partial assists)
-  - **"Brick Wall"** — son (goalie, Pro scheme, assists Off)
+  - **"Brick Wall"** — son (goalie, Pro scheme, assists Off) · #13 · favorite color red

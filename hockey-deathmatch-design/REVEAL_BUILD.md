@@ -107,7 +107,10 @@ Career, Franchise, Challenges, creation suite, star players, other arenas, full 
 
 ---
 
-## Open Questions
-- His jersey number (and any favorite colors) for his profile and mask?
-- Gore level for the reveal: Off / Low / Full?
-- Reveal team: **Bayonne Dockrats** (Career start) — OK?
+## Decisions (Oct 2026)
+- Son's number: **#13**. Favorite color: **red**.
+  - "Brick Wall" jersey: Dockrats **#13**, nameplate "BRICK WALL".
+  - Reveal goalie mask: **red-dominant** design (Dockrats container red with navy accents) — e.g. a red brick-wall pattern with cracks and a "13" on the chin. Owner approves before reveal.
+  - Note: star Dusty Rourke (Slagdogs) also wears #13 — kept on purpose as a future rivalry hook.
+- Gore level at reveal: **Full**.
+- Reveal team: **Bayonne Dockrats** (navy / container red).
