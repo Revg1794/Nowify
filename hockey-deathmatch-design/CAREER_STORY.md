@@ -111,6 +111,8 @@ No cinematic cutscenes. Playable as a **skater or a goalie** (same story, differ
 
 ## 6. Broadcast Presentation (how story is told)
 
+> Full segment design, scripts, and production plan: `CAREER_BROADCAST.md`.
+
 | Segment | What it is |
 |---|---|
 | **Redline Tonight** | Pre-game show — Dale and Knuckles preview games, react to story events |

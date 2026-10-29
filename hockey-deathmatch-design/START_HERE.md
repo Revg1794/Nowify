@@ -36,6 +36,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 | Custom teams | "Expansion Franchise Application" flow; layered Logo Editor (32 layers, RHL shape library, grit filters); jersey designer; arena & presentation; expansion draft | `CUSTOM_TEAM.md` |
 | Items | 41 items (stick mods, puck mods, thrown, deployables, power-ups, goalie items) with first-pass numbers; health/status/Downed→Killed rules | `ITEMS.md` |
 | Replays | Always-on data recording, auto highlights (Excitement Score), viewer with 9 cameras incl. helmet cam, Broadcast Editor (timeline, overlays, filters, templates), Photo Mode, MP4 export | `REPLAY_EDITOR.md` |
+| Career broadcast | Game-week flow; segment catalog (Redline Tonight, Rinkside w/ Tasha, Commissioner's Address, Leaked Footage, phone, ads, tabloid, Unfiltered); interview tones; sample scripts | `CAREER_BROADCAST.md` |
 | Crowd Hype | **Central mechanic** — fuels items, arena Network Events, finishers, Career ratings | `GAME_DESIGN.md` §4 |
 | Violence | Gore level setting: Off / Low / Full | `GAME_DESIGN.md` §2 |
 | Teams | 8 teams in **real cities** + Meridian All-Stars; **named star players** | `LEAGUE_AND_NETWORK.md` |
@@ -70,6 +71,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 8d. `UI.md`
 8e. `REPLAY_EDITOR.md`
 9. `CAREER_STORY.md`
+9b. `CAREER_BROADCAST.md`
 10. `AUDIO.md`
 11. `TITLE_IDEAS.md`
 
