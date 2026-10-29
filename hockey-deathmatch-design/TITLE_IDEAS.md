@@ -1,5 +1,14 @@
 # Title Ideas
 
+## ✅ Chosen: **RHL — Redline Hockey League**
+- Double meaning: hockey's center **red line** + blood + "redlining" (pushed past the limit).
+- Works as the in-world league name ("Welcome to tonight's RHL broadcast...").
+- Quick web check (Oct 2026): no existing "Redline Hockey League" or hockey game named "Redline" found. Unrelated uses: Redline racing games (1999/2006), "RHL 20XX" indie game, Rocket Hockey League (Rocket League community), Rewind Hockey League (Strat-O-Matic).
+- TODO before going public: formal trademark search, Steam store name search, domain (e.g. redlinehockeyleague.com / playrhl.com).
+
+## ❌ Rejected: Red Ice
+Shares a name with Red Ice TV, a white nationalist media outlet — dominates search results and creates a bad association.
+
 Pick a favorite (or mash them up). Check trademark / Steam availability before committing.
 
 ## Hockey terms with a double meaning

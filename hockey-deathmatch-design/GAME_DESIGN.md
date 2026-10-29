@@ -1,6 +1,6 @@
-# Hockey Deathmatch — Game Design Document (Draft v0.1)
+# RHL: Redline Hockey League — Game Design Document (Draft v0.2)
 
-> **Working title:** TBD (see `TITLE_IDEAS.md`)
+> **Title:** RHL — Redline Hockey League (see `TITLE_IDEAS.md` for history and name checks)
 > **Engine:** Unreal Engine 5 · **DCC:** Blender · **Target hardware (dev):** PC with RTX 5080
 > **Status:** Brainstorm / pre-production. This doc is the handoff for Claude Code sessions on the dev PC.
 
@@ -8,7 +8,8 @@
 
 ## 1. Vision
 
-A high-quality (AAA-presentation) **arcade blood-sport hockey game** set in a **dystopian televised league**.
+A high-quality (AAA-presentation) **arcade blood-sport hockey game** set in a **dystopian televised league: the Redline Hockey League (RHL)**.
+The title is also the in-world league name — the game *is* the broadcast.
 It is still hockey — **goals win games** — but killing, maiming, and brutalizing opponents is a core tactic.
 A media network runs the league and rewards spectacle: the more brutal the match, the higher the ratings.
 
@@ -179,7 +180,7 @@ A media network runs the league and rewards spectacle: the more brutal the match
 
 ## 9. Open Questions
 
-- Final title
+- Trademark / Steam / domain check for "RHL" and "Redline Hockey League" (avoid confusion with NHL/AHL marks in logo design)
 - Platforms beyond PC (consoles?)
 - Team size / whether artists will be hired
 - Single-player vs. multiplayer priority
