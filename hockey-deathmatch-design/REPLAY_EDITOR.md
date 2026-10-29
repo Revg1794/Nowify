@@ -86,7 +86,12 @@ Cut · Meridian wipe · Glitch · Flash · Fade to black · "Commercial break" b
 
 ### Overlays
 - **Scorebug** (on/off), **lower thirds** ("KOWALSKI — 3rd KILL TONIGHT"), player name cards, custom text.
-- **Telestrator:** draw on a frozen frame like a TV analyst (arrows, circles, lines) — "Knuckles' Breakdown" style.
+- **Telestrator (DECISION: keep):** draw on the replay like a TV analyst.
+  - Freeze any frame; draw **arrows, circles, lines, freehand**; **spotlight** a player (dim everything else).
+  - Drawings can **animate** (arrow draws itself as the replay plays) and track a player as they move.
+  - Pen styles: chalk, marker, glowing broadcast; team/player colors.
+  - **Knuckles' Breakdown:** in Career (*Redline Tonight*), Knuckles auto-telestrates **your own replays** (scripted drawings on tagged events).
+  - Built late (nothing depends on it).
 - **Sponsor bugs** (fake sponsors).
 - **Replay bug** ("REPLAY" in the corner).
 
@@ -162,6 +167,4 @@ Gore setting always applies.
 - **Photo Mode: yes.**
 - Auto-keep last **20 matches**: yes.
 - **Record simmed matches too** (Sim Log + re-enacted Sim Highlights; optional Full Engine Sim) — see §1b.
-
-## Open Questions
-- Telestrator — explained; awaiting keep/skip decision.
+- **Telestrator: keep** (built late; also used for Knuckles' Breakdown in Career).
