@@ -135,7 +135,7 @@ telegraph (sound, VFX, announcer set, lead time), effects (gameplay abilities / 
 
 ---
 
-## Open Questions
-- Zamboni Surf — keep (fun but chaotic)?
-- Glass Shatter knocking players into the crowd — keep?
-- Any event to cut or add?
+## Decisions (Oct 2026)
+- **Zamboni Surf: keep.**
+- **Glass Shatter** (players knocked into the crowd): **keep.**
+- Event list: **approved as-is**.
