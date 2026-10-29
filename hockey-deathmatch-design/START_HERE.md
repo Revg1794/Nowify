@@ -39,6 +39,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 | Career broadcast | Game-week flow; segment catalog (Redline Tonight, Rinkside w/ Tasha, Commissioner's Address, Leaked Footage, phone, ads, tabloid, Unfiltered); interview tones; sample scripts | `CAREER_BROADCAST.md` |
 | Random events | Zamboni of Doom (Earl, path telegraph, Zamboni Surf, arena variants) + 14 universal events run by an Event Director | `RANDOM_EVENTS.md` |
 | Shootout of Death | Best-of-5, 8 s shot clock, goalie & shooter can attack, damage carries over, Item Roulette, 7 variants incl. Gauntlet & Goalie vs Goalie; default OT tiebreaker | `SHOOTOUT.md` |
+| Reveal build | The Pit + goalie-first polish, Shootout vs AI, 3v3 co-op vs AI, 3 items, personal touches ("Brick Wall" called by Dale), quality checklist, reveal-day flow | `REVEAL_BUILD.md` |
 | Crowd Hype | **Central mechanic** — fuels items, arena Network Events, finishers, Career ratings | `GAME_DESIGN.md` §4 |
 | Violence | Gore level setting: Off / Low / Full | `GAME_DESIGN.md` §2 |
 | Teams | 8 teams in **real cities** + Meridian All-Stars; **named star players** | `LEAGUE_AND_NETWORK.md` |
@@ -174,6 +175,9 @@ Move them into a dedicated **private** repo:
 
 ### Placeholder art is fine here
 Use mannequins, gray boxes, and simple materials. Art comes **after** the feel is proven.
+
+### The Reveal
+The vertical slice + shootout become the **reveal build** for the son — see `REVEAL_BUILD.md` for scope, polish checklist, and reveal-day flow.
 
 ### After the vertical slice (see `GAME_DESIGN.md` §9 Milestones)
 Combat layer → Item system & Crowd Hype → Art pass (The Plant, MetaHuman players) → Modes → Creation suite → Franchise → Career.
