@@ -40,6 +40,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 | Random events | Zamboni of Doom (Earl, path telegraph, Zamboni Surf, arena variants) + 14 universal events run by an Event Director | `RANDOM_EVENTS.md` |
 | Shootout of Death | Best-of-5, 8 s shot clock, goalie & shooter can attack, damage carries over, Item Roulette, 7 variants incl. Gauntlet & Goalie vs Goalie; default OT tiebreaker | `SHOOTOUT.md` |
 | Reveal build | The Pit + goalie-first polish, Shootout vs AI, 3v3 co-op vs AI, 3 items, personal touches ("Brick Wall" called by Dale), quality checklist, reveal-day flow | `REVEAL_BUILD.md` |
+| Practice & tutorial | The Pit (no cameras); Training Camp with skater (Frankie) & goalie (Tommy) tracks + Fast Track; sandbox tools, drills, Shooting Gallery, rewind | `PRACTICE_AND_TUTORIAL.md` |
 | Crowd Hype | **Central mechanic** — fuels items, arena Network Events, finishers, Career ratings | `GAME_DESIGN.md` §4 |
 | Violence | Gore level setting: Off / Low / Full | `GAME_DESIGN.md` §2 |
 | Teams | 8 teams in **real cities** + Meridian All-Stars; **named star players** | `LEAGUE_AND_NETWORK.md` |
@@ -75,6 +76,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 8d. `UI.md`
 8e. `REPLAY_EDITOR.md`
 8f. `SHOOTOUT.md`
+8g. `PRACTICE_AND_TUTORIAL.md`
 9. `CAREER_STORY.md`
 9b. `CAREER_BROADCAST.md`
 10. `AUDIO.md`
