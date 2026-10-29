@@ -2,6 +2,7 @@
 
 > **Title:** RHL — Redline Hockey League (see `TITLE_IDEAS.md` for history and name checks)
 > **Engine:** Unreal Engine 5 · **DCC:** Blender · **Target hardware (dev):** PC with RTX 5080
+> **Platform:** PC only (Windows). **Offline only** — no online multiplayer, no console release planned.
 > **Status:** Brainstorm / pre-production. This doc is the handoff for Claude Code sessions on the dev PC.
 
 ---
@@ -121,11 +122,16 @@ A media network runs the league and rewards spectacle: the more brutal the match
 
 ## 5. Modes
 
-- Exhibition (3v3 / 5v5)
-- Online multiplayer (primary long-term mode)
-- Career / Campaign: rise through an underground → televised league
-- Survival: waves of enemy teams
-- Franchise / GM layer: **dead players stay dead** — sign replacements
+Offline only. Full details in `GAME_MODES.md`.
+
+**Launch modes (chosen):**
+- **Career: "Death Waiver"** — story mode with fully voiced cutscenes
+- **Franchise: "Ownership"** — owner/GM, permadeath roster
+- **Challenges: "Highlight Reel"** — scripted scenarios
+- **Penalty Shootout of Death** — standalone mode + overtime tiebreaker
+- **Broadcast / Replay mode** — replay editor, highlight clips, export video
+
+**Core (required to support the above):** Exhibition (3v3 / 5v5, local couch multiplayer) and Practice ("The Pit", tutorial).
 
 ---
 
@@ -149,18 +155,17 @@ A media network runs the league and rewards spectacle: the more brutal the match
 - **Home arena:** choose a base arena template + hazards + lighting + crowd type + ice condition.
 - **Presentation:** goal horn, entrance music, mascot, fictional sponsors on boards.
 - **Roster:** custom players + generated free agents; team tactics/playstyle.
-- **Use anywhere:** exhibition, online, and as your franchise in career mode (expansion team joining the RHL).
+- **Use anywhere:** exhibition, challenges, and as your franchise in career mode (expansion team joining the RHL).
 
-### Sharing (online)
-- Upload / download / rate custom players, teams, and logos.
-- **Moderation required:** name/text filters, logo report system, takedowns — user-generated logos will be abused.
+### Sharing (offline)
+- Export / import custom players and teams as files (share with friends manually). No online service or moderation needed.
 
 ### Tech Notes
 - **MetaHuman Creator is not available at runtime.** In-game customization needs a modular character system:
   base MetaHuman-compatible bodies + morph targets for face/body + swappable meshes (hair, gear) + material
   parameters/decals (skin, scars, tattoos, blood, wear). Plan this early — it affects the whole character pipeline.
-- Logo editor: layered decals rendered to a Render Target, saved as data (not images) so it can be shared small and re-rendered.
-- Save locally via SaveGame; online sharing needs a backend (later milestone).
+- Logo editor: layered decals rendered to a Render Target, saved as data (not images) so files stay small and re-render cleanly.
+- Save locally via SaveGame; export/import via JSON or binary files.
 - Scars/injuries as material layers + decals driven by persistent player data.
 
 ---
@@ -194,11 +199,13 @@ A media network runs the league and rewards spectacle: the more brutal the match
 ## 8. Technical Plan
 
 - **Engine:** Unreal Engine 5 (Lumen, Nanite, Chaos physics, Niagara VFX, Control Rig / physics-based animation for hits & ragdolls).
-- **Abilities / items:** Gameplay Ability System (GAS) — buffs, cooldowns, replication.
+- **Abilities / items:** Gameplay Ability System (GAS) — buffs, cooldowns, effects (single-player, no replication needed).
 - **Data-driven items:** each item is a Data Asset (stats, rarity, duration, mesh, VFX). Balance via spreadsheets / data tables.
 - **Spawn Director:** decides what/where/when to spawn from score, Hype, and match time.
 - **Modular characters:** shared skeleton + morph targets + swappable gear meshes (required for star players AND custom players).
 - **Skeleton:** rig characters to UE5 mannequin skeleton for animation reuse.
+- **Voiced cutscenes:** MetaHuman Animator (facial capture from an iPhone or webcam) + Sequencer. Voice actors needed (Career + announcers).
+- **Replay system:** UE5 Replay system (DemoNetDriver) or a custom recorder of transforms/events; Sequencer-style camera tools for the editor; video export via Movie Render Queue.
 - **Automation:** Blender Python API + Unreal Python API / commandlets for asset import, validation, and review renders.
 - **Dev machine access:** Claude Code runs on the dev PC (or connects via Remote Control) with Unreal + Blender installed.
 
@@ -210,16 +217,16 @@ A media network runs the league and rewards spectacle: the more brutal the match
 2. **Combat layer** — fights, injuries, momentum damage, ragdolls.
 3. **Item system** — GAS setup, 5–6 items, Spawn Director, Crowd Hype v1.
 4. **Art pass** — hero arena, MetaHuman players with gear, asset review pipeline live.
-5. **Modes** — exhibition polish, then online multiplayer prototype.
+5. **Modes** — exhibition polish, Practice, Penalty Shootout of Death, Challenges, Broadcast/Replay mode.
 6. **Creation suite** — custom player (modular characters) + custom team (logo editor, jerseys, arena options).
-7. **Career** — ratings economy, sponsors, permadeath franchise, star player roster.
+7. **Franchise** — GM layer, permadeath roster, budgets.
+8. **Career** — story, voiced cutscenes, ratings economy, sponsors, star player roster.
 
 ---
 
 ## 10. Open Questions
 
 - Trademark / Steam / domain check for "RHL" and "Redline Hockey League" (avoid confusion with NHL/AHL marks in logo design)
-- Platforms beyond PC (consoles?)
 - Team size / whether artists will be hired
-- Single-player vs. multiplayer priority
+- Voice casting budget (Career cutscenes + announcers)
 - Monetization (premium? cosmetics via fictional sponsors?)

@@ -90,20 +90,26 @@ Every mode is framed as a **Meridian broadcast** (show name, intro, announcers) 
 
 ---
 
-## 6. Recommended Scope
+## 6. DECISIONS (Oct 2026)
+
+- **Platform:** PC only. **No online.** No console release planned.
+- **Launch modes:** Career, Franchise, Challenges, Penalty Shootout of Death, Broadcast/Replay mode.
+- **Core supporting modes:** Exhibition (incl. local couch multiplayer), Practice / tutorial.
+- **Career presentation:** fully voiced cutscenes (to confirm — see below).
+- **Cut / not planned:** all online modes (Ranked, Quick Match, The League, online co-op), crossplay.
+- **Maybe later (offline):** Survival, Fight Night, Party modes as local/exhibition variants.
+
+## 7. Build Order
 
 | Phase | Modes |
 |---|---|
 | **Vertical slice** | Exhibition (3v3, one arena), Practice |
-| **Launch (v1.0)** | Exhibition, Local MP, Practice, Career, Franchise, Online Quick Match + Ranked, Fight Night, 2–3 Party modes |
-| **Post-launch** | Online Career ("The League"), Survival, Challenges, rotating Party modes, Broadcast/Replay editor, Playoffs Bracket events |
+| **Alpha** | Penalty Shootout of Death, Challenges, Broadcast/Replay mode |
+| **Beta** | Franchise, Career (story + voiced cutscenes) |
+| **Post-launch (optional)** | Survival, Fight Night, Party variants |
 
-Rationale: online is expensive (servers, netcode, anti-cheat, moderation). Prove the game offline first,
-but **build the netcode in from the start** (UE replication + GAS) so online isn't a rewrite.
-
----
+No online = no servers, netcode, anti-cheat, or moderation. Big savings — that budget goes to Career presentation and art quality.
 
 ## Open Questions
-- Which modes matter most to you for launch?
-- Crossplay later (if consoles)?
-- Should Career include voiced cutscenes, or broadcast-style presentation only (cheaper)?
+- Confirm Career cutscenes are fully voiced (vs. broadcast-style).
+- Voice casting approach (actors, budget).
