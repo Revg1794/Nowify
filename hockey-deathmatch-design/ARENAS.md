@@ -14,6 +14,7 @@ Hazards can be toggled per match (Exhibition settings), so any arena can be play
   - **Triggered** — timed or random (crane drop, conveyor hook swing)
   - **Network Event** — fires at **Crowd Hype Tier 3**, the arena's signature moment
 - **Readability rule:** every hazard is telegraphed (sound + light + announcer) at least 2 seconds before it hits.
+- **Weather & time of day (all arenas):** selectable per match — Day / Dusk / Night; Clear / Rain / Snow / Fog / Storm (indoor arenas get matching effects: leaks, steam, power flickers). Each arena still has a **signature default** mood.
 - **Ice damage:** blood, skate marks, cracks, and scorch marks accumulate through the game and reset between periods (Zamboni).
 
 ---
@@ -66,7 +67,7 @@ Hazards can be toggled per match (Exhibition settings), so any arena can be play
 - **Boards / glass:** Waterlogged wood boards, patched with sheet metal; low rail in spots.
 - **Passive:** **Thin ice** — dark patches; heavy hits on them crack the ice.
 - **Triggered:** Barge sways — ice tilts slightly, puck slides one direction for a few seconds.
-- **Network Event — "Floodgate":** A section of ice breaks open; players knocked in go under and must swim out (or drown).
+- **Network Event — "Floodgate":** A section of ice breaks open; players knocked in fall through and are **out for the rest of their shift** (respawn on next line change). No drowning/swimming.
 - **Crowd:** Locals on surrounding boats and rooftops, brass band.
 - **Item delivery:** Floats up from under the ice, frozen in place.
 
@@ -139,7 +140,7 @@ Hazards can be toggled per match (Exhibition settings), so any arena can be play
 
 ---
 
-## Open Questions
-- Should every arena have weather/time-of-day options, or keep each arena's mood fixed?
-- Water/drowning in The Barge — keep (cool but complex) or simplify to "fall through = out for the shift"?
-- Any arena you'd cut or add?
+## Decisions (Oct 2026)
+- Weather & time-of-day options: **yes**, for every arena.
+- The Barge: falling through = **out for the rest of your shift** (no drowning).
+- Arena list: **approved as-is**.
