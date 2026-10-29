@@ -150,6 +150,7 @@ Audio sells the brutality. A hit without a bone crunch and crowd roar is just tw
 ## 7. Audio Settings
 - Volume sliders: Master, Music, SFX, Crowd, Announcers, Voice (players), Ambient
 - Announcer frequency: Off / Low / Normal / Max
+- AI trash talk: Off / Low / Normal (see `AI.md` §13)
 - Music: On / Off / Custom folder only
 - Gore audio: Normal / Reduced (ties to Gore Level setting)
 - Subtitles for announcers & broadcast segments

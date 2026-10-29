@@ -182,14 +182,48 @@ Each team has a **style profile** (data asset) that shifts AI scoring weights.
 6. Teammate support + Bodyguard logic.
 7. Team/star personalities.
 8. Difficulty presets + sliders.
+8b. **Trash talk barks** (Level 1, see §13).
 9. Refs.
 10. Adaptive AI (All-Stars / Prime Time).
 
 ---
 
+## 13. AI Trash Talk — Level 1 (Context Barks)
+
+Short voice lines AI players say when something happens. Added **after core AI works** (not in the vertical slice).
+
+### Triggers
+| Event | Example |
+|---|---|
+| Big hit landed / taken | "Stay down!" / "That all you got?" |
+| Goal scored / allowed | "Too easy." / "Wake up, goalie!" |
+| Fight starts / won / lost | "Let's go!" / "Who's next?" |
+| Item picked up / used | "Oh, you're done now." |
+| Goalie lines | "SIEVE!" after a goal · "Can't see it, can you?" when screening · "Lucky save." |
+| Save made (AI goalie) | "Not tonight." |
+| Low Hype / boring play | "Crowd's falling asleep!" |
+| Rival nearby | Star-specific taunts |
+
+### System
+- Uses the **same event system as the announcers**: game event → pick a line → play it.
+- **Cooldowns** per player and globally; never repeats the same line back-to-back.
+- **Ducks under announcers** (announcer lines always win).
+- Positional audio from the speaking player; subtitles if enabled.
+- Rookie mercy setting also tones down the meanest lines.
+- Setting: **Trash Talk: Off / Low / Normal** (Audio settings).
+
+### Line Budget (~500–700 lines, generated with local TTS)
+| Speaker | Lines |
+|---|---|
+| Each star skater (9) | 20–40 unique lines (Kowalski barely talks; Ace never shuts up) |
+| Each star goalie (9) | 15–25 unique lines |
+| Generic voice types (4) | ~50 lines each |
+
+### Build Step
+Added after step 8 (Difficulty presets) in the AI build order: **8b. Trash talk barks.**
+
 ## Decisions (Oct 2026)
 - Bodyguard default: **Normal** (Low / High still selectable).
 - **Rookie mercy: yes** — on Rookie, AI won't finish off or deliberately kill badly injured players (it still hits and fights).
-
-## Open Questions
-- AI trash talk — complexity discussed; awaiting decision (simple context "barks" recommended, added after core AI works).
+- **AI trash talk: Level 1 (context barks)** — approved. See §13.
+- Level 2 (personalized/memory-based trash talk) — not planned; maybe later for Career only.
