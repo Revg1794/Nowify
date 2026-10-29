@@ -26,6 +26,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 | Killing | Possible **without** items; items amplify it | `GAME_DESIGN.md` §2 |
 | Goalies | **Own separate item set**, first-class role, star goalie per team, mask editor | `GOALIE.md` |
 | Spawn Director | Drop budget + Hype-capped rarity tables + fair spawn-point scoring + arena deliveries; separate goalie pool | `SPAWN_DIRECTOR.md` |
+| AI | Team Brain + utility-scored player AI; real formations; fair (reaction delay, no rubber-banding); team personalities; Bodyguard teammates protect the goalie | `AI.md` |
 | Crowd Hype | **Central mechanic** — fuels items, arena Network Events, finishers, Career ratings | `GAME_DESIGN.md` §4 |
 | Violence | Gore level setting: Off / Low / Full | `GAME_DESIGN.md` §2 |
 | Teams | 8 teams in **real cities** + Meridian All-Stars; **named star players** | `LEAGUE_AND_NETWORK.md` |
@@ -46,6 +47,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 3. `CONTROLS_AND_FEEL.md` — needed first for the vertical slice
 4. `GOALIE.md`
 4b. `SPAWN_DIRECTOR.md` — needed for the item system milestone
+4c. `AI.md` — basic AI needed for the vertical slice
 5. `ARENAS.md`
 6. `LEAGUE_AND_NETWORK.md`
 7. `GAME_MODES.md`
