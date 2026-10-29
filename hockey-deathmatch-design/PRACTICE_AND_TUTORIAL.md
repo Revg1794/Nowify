@@ -65,6 +65,19 @@ so the mentors talk straight. No broadcast package here — just flickering ligh
 - Reward: **"Pit Graduate"** badge + tape colors + a Pit-themed mask design.
 - Lessons stay replayable from the Practice menu anytime.
 
+### Tutorial Rewards (DECISION: yes, it counts)
+| Completed | Reward |
+|---|---|
+| Each lesson | Small cosmetic (tape color, sticker, mask decal) |
+| **Skater track** | "Pit Graduate" badge, Frankie's mismatched-glove set (cosmetic), Pit jersey patch |
+| **Goalie track** | "Pit Graduate" badge, Tommy's **smiley-face mask decal**, patched-pad design |
+| **Both tracks** | **Pit-themed goalie mask** + Pit alternate jersey for custom teams |
+| **Fast Track** | Badge only (smaller rewards; full tracks still available later) |
+| **Career bonus** | Starting **+500 Ratings** and +2 attribute points for the player you create |
+| **Career story bonus — "Pit Bond"** | If you completed the track matching your Career position (Frankie = skater, Tommy = goalie), your mentor trusts you from day one: extra texts/scenes, and **one extra warning hint** before the Act 1 playoff game about how they'll be targeted (makes saving them more readable — not automatic) |
+
+
+
 ---
 
 ## 3. Contextual Tips (in real games)
@@ -141,6 +154,6 @@ Shots (speed, accuracy), saves (reaction time, Perfect Save %), hits (tier break
 
 ---
 
-## Open Questions
-- Hosts (Frankie for skaters, Tommy for goalies) — OK?
-- Should the tutorial count toward anything (unlocks, Career bonus)?
+## Decisions (Oct 2026)
+- Hosts: **Frankie (skater)**, **Tommy (goalie)** — approved.
+- **Tutorial counts:** cosmetic unlocks + small Career bonus + "Pit Bond" mentor story bonus (see Graduation › Tutorial Rewards).

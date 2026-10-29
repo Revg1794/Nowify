@@ -72,6 +72,7 @@ No cinematic cutscenes. Playable as a **skater or a goalie** (same story, differ
 7. **End of Act 1 — "The Accident" (preventable):**
    - **Mentor dies (default):** your mentor is killed on live ice. The network calls it an accident. Dale cuts to commercial.
      You're named captain (skater) or starting goalie (goalie path).
+   - *Pit Bond:* players who finished the matching Pit Training Camp track get one extra warning hint before this game (see `PRACTICE_AND_TUTORIAL.md`).
    - **Mentor saved:** if you protect your mentor during the playoff game (keep them above a health threshold — block hits,
      fight their attackers, take the hits yourself — **and** win the game), they survive, badly injured.
      - Holloway's people "retire" a different Dockrat instead (still a gut punch).
