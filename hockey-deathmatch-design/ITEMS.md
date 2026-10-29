@@ -66,7 +66,7 @@ play + headless sims (`SPAWN_DIRECTOR.md` §9). Grounded & brutal: everything co
 | **Aluminum Bat-Stick** | Uncommon | 5 | 18 | Big knockback; 25% Stun | Metallic ring on wind-up |
 | **Sledgehammer Stick** | Rare | 3 | 30 | Knockdown + **cracks ice** (2 m slush patch, 8 s) | Slow 0.8 s wind-up · dodge/dash |
 | **Skate-Blade Stick** | Legendary | 4 | 22 | Bleed ×2; Downed targets → instant Kill | Shriek sound · glowing red outline |
-| **Meat Hook** (Butchers arena flavor) | Rare | 4 | 12 | **Pulled** 5 m; into a wall hook = +25 | Hook swing whoosh |
+| **Meat Hook** (Kold Kut exclusive) | Rare | 4 | 12 | **Pulled** 5 m; into a wall hook = +25 | Hook swing whoosh |
 
 Stick mods: puck control −20% while equipped (you're holding a weapon).
 
@@ -199,7 +199,30 @@ Glass Bottles · Nail-Studded Stick · Lead-Weighted Puck · Spike Strip · Adre
 
 ---
 
-## Open Questions
-- Downed → Killed rule OK (crawl to bench vs finished off)?
-- Any items to cut or add?
-- Should certain items be **arena-exclusive** (Meat Hook only in Kold Kut, Road-Flare more common in The Shaft)?
+## 12b. Arena-Exclusive Items (DECISION: yes)
+
+Each team arena has **one exclusive item** that only drops there (existing items — no new ones added).
+
+| Arena | Exclusive item | Why |
+|---|---|---|
+| The Plant (Detroit) | **Bike-Chain Wrap** | Factory chains & drive belts |
+| Mill No. 9 (Gary) | **Sledgehammer Stick** | Mill sledges; cracking ice fits the slag theme |
+| The Yard (Winnipeg) | **Padlock in a Sock** | Classic prison weapon |
+| The Jackpot (Las Vegas) | **Firecracker Puck** | Casino fireworks & showmanship |
+| The Barge (New Orleans) | **Oil Slick** | Fuel spills on the water |
+| Kold Kut (Anchorage) | **Meat Hook** | Meatpacking plant |
+| Pier 13 (Bayonne) | **Chain** (thrown) | Dockside chains |
+| The Shaft (Sudbury) | **Smoke Can** (as mine dust) | Dust clouds underground |
+| The Pit / Meridian Dome | None | Neutral / network arena (all non-exclusive items) |
+
+Rules:
+- Exclusive items get a **higher weight** in their home arena (they show up regularly there).
+- **Custom arenas** inherit the exclusive item of the shell they're built from.
+- Exhibition setting **Arena Exclusives: On (default) / Off** — Off = every item can drop everywhere.
+- **Practice** and the **Challenge Editor** can spawn any item anywhere.
+- Road-Flare Puck stays global (but more common in dark arenas/Blackout per Spawn Director).
+
+## Decisions (Oct 2026)
+- **Downed → Killed** rule: approved.
+- Item list: **approved as-is** (41 items).
+- **Arena-exclusive items: yes** (see §12b).

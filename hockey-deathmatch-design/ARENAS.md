@@ -15,6 +15,7 @@ Hazards can be toggled per match (Exhibition settings), so any arena can be play
   - **Network Event** — fires at **Crowd Hype Tier 3**, the arena's signature moment
 - **Readability rule:** every hazard is telegraphed (sound + light + announcer) at least 2 seconds before it hits.
 - **Weather & time of day (all arenas):** selectable per match — Day / Dusk / Night; Clear / Rain / Snow / Fog / Storm (indoor arenas get matching effects: leaks, steam, power flickers). Each arena still has a **signature default** mood.
+- **Exclusive item:** each team arena has one item that only drops there (see `ITEMS.md` §12b).
 - **Ice damage:** blood, skate marks, cracks, and scorch marks accumulate through the game and reset between periods (Zamboni).
 
 ---

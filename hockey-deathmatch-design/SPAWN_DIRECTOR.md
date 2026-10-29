@@ -46,7 +46,7 @@ moments, and makes the Crowd Hype system feel like it controls the arena.
   - **Catch-up:** trailing team's side gets better rarity odds (scaled by goal difference & Catch-Up slider).
   - **Anti-repeat:** the same item can't drop twice in a row; recently dropped items get lower weight.
   - **Situational:** e.g. more puck mods when a team has had no shots for a while; more defensive items for a team being bullied; fewer lethal items when someone is already badly injured (prevents pile-ons — optional).
-  - **Arena flavor:** each arena boosts certain items (The Plant: chains & sledges; Kold Kut: hooks & blades; The Barge: salt & flares).
+  - **Arena flavor:** each arena boosts certain items, and each team arena has **one exclusive item** that only drops there (see `ITEMS.md` §12b; toggle: Arena Exclusives On/Off).
   - **Hazard/Event links:** Blackout or The Shaft → more flare pucks; Whiteout → more flares.
 
 ### WHERE — Spawn Location Scoring
