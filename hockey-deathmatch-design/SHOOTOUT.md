@@ -15,7 +15,7 @@ Perfect for the couch: **son in net, owner shooting** (then swap).
 | Start | Shooter starts at center ice with the puck; whistle + spotlight |
 | **Shot clock** | **8 seconds** to shoot (clock runs from first touch) |
 | Shooter limits | Can't retreat back past the red line |
-| Goalie limits | Can leave the crease anywhere in the **defensive zone** (but the net is empty while out) |
+| Goalie limits | Can leave the crease anywhere in the **defensive zone** (but the net is empty while out) — starting rule; tune after playtesting |
 | Rebounds | **No rebounds** — one shot only (unless the puck mod says otherwise) |
 | Clinch | Ends early when one team can't catch up |
 
@@ -139,7 +139,7 @@ Uses normal controls (`CONTROLS_AND_FEEL.md`) plus:
 
 ---
 
-## Open Questions
-- 8-second shot clock — right?
-- Goalie allowed anywhere in the defensive zone, or only near the crease?
-- Should the shootout be in the **reveal build** for the son?
+## Decisions (Oct 2026)
+- Shot clock: **8 seconds**.
+- Goalie range: **anywhere in his defensive zone** (starting point; revisit after playtests).
+- **Basic Shootout of Death is part of the reveal build** for the son (build step 1, then step 2 if time allows).

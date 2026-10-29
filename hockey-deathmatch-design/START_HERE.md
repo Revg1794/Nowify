@@ -170,6 +170,7 @@ Move them into a dedicated **private** repo:
 | 10 | **Couch play** — 2 controllers (Xbox + PlayStation), split-screen | Both players having fun |
 | 11 | **Pro skill-stick scheme** | Son says it feels right |
 | 12 | **Basic sliders** (speed, strength) for User/AI | Tunable without code |
+| 13 | **Basic Penalty Shootout of Death** (`SHOOTOUT.md` build steps 1–2: rounds, shot clock, goalie & shooter attacks) | Fun 1v1 on the couch — **part of the reveal** |
 
 ### Placeholder art is fine here
 Use mannequins, gray boxes, and simple materials. Art comes **after** the feel is proven.
