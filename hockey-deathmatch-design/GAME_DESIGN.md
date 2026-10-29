@@ -2,7 +2,7 @@
 
 > **Title:** RHL — Redline Hockey League (see `TITLE_IDEAS.md` for history and name checks)
 > **Engine:** Unreal Engine 5 · **DCC:** Blender · **Target hardware (dev):** PC with RTX 5080
-> **Project type:** Personal passion project for the owner and his son. **$0 budget** — only cost is Claude usage. Free tools and free/AI-generated assets only.
+> **Project type:** Personal passion project for the owner and their son. **$0 budget** — only cost is Claude usage. Free tools and free/AI-generated assets only.
 > **Toolchain:** Unreal Engine 5, Blender, ComfyUI (local AI generation on the RTX 5080), Claude Code.
 > **Platform:** PC only (Windows). **Offline only** — no online multiplayer, no console release planned.
 > **Status:** Brainstorm / pre-production. This doc is the handoff for Claude Code sessions on the dev PC.
