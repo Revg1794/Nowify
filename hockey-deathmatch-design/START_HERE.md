@@ -32,6 +32,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 | Challenges | 56 challenges in 8 packs (incl. goalie, co-op, Legends), Bronze/Silver/Gold, cosmetic unlocks | `CHALLENGES.md` |
 | Menus & UI | "Meridian Broadcast Package" style; studio main menu as channel guide; scorebug + Ratings (Hype) meter; no floating health bars; player profiles | `UI.md` |
 | Star designs | Names/personalities locked; **Edit Player** feature; **alternate looks** unlockable. Character sheets for 8 star skaters + 9 star goalies (look, gear, stats, voice), team colors & uniforms, readability test | `STAR_PLAYERS.md` |
+| Custom players | 12-step "Draft Combine" creator: origins, archetypes, body, face, marks, gear, point-buy ratings, traits, presentation, TTS name calls | `CUSTOM_PLAYER.md` |
 | Crowd Hype | **Central mechanic** — fuels items, arena Network Events, finishers, Career ratings | `GAME_DESIGN.md` §4 |
 | Violence | Gore level setting: Off / Low / Full | `GAME_DESIGN.md` §2 |
 | Teams | 8 teams in **real cities** + Meridian All-Stars; **named star players** | `LEAGUE_AND_NETWORK.md` |
@@ -56,6 +57,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 5. `ARENAS.md`
 6. `LEAGUE_AND_NETWORK.md`
 6b. `STAR_PLAYERS.md`
+6c. `CUSTOM_PLAYER.md`
 7. `GAME_MODES.md`
 8. `DIFFICULTY_SLIDERS.md`
 8b. `FRANCHISE.md`

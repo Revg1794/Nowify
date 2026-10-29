@@ -144,6 +144,8 @@ Offline only. Full details in `GAME_MODES.md`.
 
 ## 6. Custom Player & Custom Team Creation
 
+> Full custom player design: `CUSTOM_PLAYER.md`.
+
 ### Custom Player
 - **Appearance:** face sculpting, body type, skin, hair/beard, scars, tattoos, missing teeth, broken nose, black eyes.
 - **Archetype / position:** Sniper, Playmaker, Two-Way, Enforcer, Goon, Goalie.
