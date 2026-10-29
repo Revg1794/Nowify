@@ -21,7 +21,7 @@ Presented as a **Meridian "Draft Combine" broadcast**: you're a prospect being m
 | 7 | **Gear** | Helmet, visor/cage, gloves, pads, skates, stick, tape (goalies: mask, pads, glove, blocker) |
 | 8 | **Ratings** | Attribute points |
 | 9 | **Fighting** | Fight style + signature finisher |
-| 10 | **Traits** | 2 strengths + optional flaw |
+| 10 | **Traits** | 2 strengths |
 | 11 | **Presentation** | Voice, walkout, celebrations, taunts, goal song |
 | 12 | **Combine Results** | Broadcast-style scouting report + Dale announcing your name → Save |
 
@@ -161,13 +161,15 @@ Origin also changes **Career dialogue lines** (Tasha's interview questions refer
 ---
 
 ## 11. Traits
-Pick **2 strengths**; optionally pick **1 flaw** for extra rating points.
+Pick **2 strengths**. (No flaw-for-points system — decision.)
 
-| Strengths | Flaws |
-|---|---|
-| Clutch, Iron Jaw, Sniper's Eye, Hype Machine, Bodyguard, Puck Hound, Grinder, Quick Hands, Rink Rat (hazard-savvy), Fan Favorite | Glass Jaw, Short Fuse (more penalties), Injury Prone, Slow Starter, Showboat (loses puck while celebrating), Hated by Refs |
+| Strengths |
+|---|
+| Clutch, Iron Jaw, Sniper's Eye, Hype Machine, Bodyguard, Puck Hound, Grinder, Quick Hands, Rink Rat (hazard-savvy), Fan Favorite |
 
-Goalie traits: Brick Wall, Hot Hand (Hot Streak easier), Rebound King, Crease King · flaws: Sieve Nights, Rattled (worse after goals), Five-Hole Problems.
+Goalie traits: Brick Wall, Hot Hand (Hot Streak easier), Rebound King, Crease King.
+
+> Negative traits (Glass Jaw, Short Fuse, Rattled, etc.) may still exist on **generated/star players** in Franchise for personality, but custom players don't pick them.
 
 ---
 
@@ -221,7 +223,7 @@ Goalie traits: Brick Wall, Hot Hand (Hot Streak easier), Rebound King, Crease Ki
 
 ---
 
-## Open Questions
-- Point-buy by default with optional Sandbox — OK?
-- Flaws for extra points — fun, or skip?
-- Should Career let you **create a goalie and a skater** and switch between them? (Currently: pick one per Career save.)
+## Decisions (Oct 2026)
+- Ratings: **point-buy by default**, optional **Sandbox** toggle.
+- **No flaws-for-points.** Custom players pick 2 strengths only.
+- Career: **one player per save** (skater *or* goalie).
