@@ -37,6 +37,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 | Items | 41 items (stick mods, puck mods, thrown, deployables, power-ups, goalie items) with first-pass numbers; health/status/Downed→Killed rules | `ITEMS.md` |
 | Replays | Always-on data recording, auto highlights (Excitement Score), viewer with 9 cameras incl. helmet cam, Broadcast Editor (timeline, overlays, filters, templates), Photo Mode, MP4 export | `REPLAY_EDITOR.md` |
 | Career broadcast | Game-week flow; segment catalog (Redline Tonight, Rinkside w/ Tasha, Commissioner's Address, Leaked Footage, phone, ads, tabloid, Unfiltered); interview tones; sample scripts | `CAREER_BROADCAST.md` |
+| Random events | Zamboni of Doom (Earl, path telegraph, Zamboni Surf, arena variants) + 14 universal events run by an Event Director | `RANDOM_EVENTS.md` |
 | Crowd Hype | **Central mechanic** — fuels items, arena Network Events, finishers, Career ratings | `GAME_DESIGN.md` §4 |
 | Violence | Gore level setting: Off / Low / Full | `GAME_DESIGN.md` §2 |
 | Teams | 8 teams in **real cities** + Meridian All-Stars; **named star players** | `LEAGUE_AND_NETWORK.md` |
@@ -58,6 +59,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 4. `GOALIE.md`
 4a. `ITEMS.md` — combat numbers & all items
 4b. `SPAWN_DIRECTOR.md` — needed for the item system milestone
+4b2. `RANDOM_EVENTS.md`
 4c. `AI.md` — basic AI needed for the vertical slice
 5. `ARENAS.md`
 6. `LEAGUE_AND_NETWORK.md`
