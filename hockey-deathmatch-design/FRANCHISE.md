@@ -14,7 +14,7 @@ Play every game, sim them, or mix — and you can play any position, including *
 | Season length | 14 / **28 (default)** / 56 games |
 | Playoffs | Top 4 (default) or top 6; best-of-3 / best-of-5 / best-of-7 |
 | Permadeath | Off · **Stars Only** · **Full (default)** |
-| Finances | Simple / **Standard** / Hardcore |
+| Finances | **Simple (default)** — Standard/Hardcore are optional later additions |
 | Network Pressure | Off · Normal · Brutal (how much Meridian interferes) |
 | Difficulty | Uses `DIFFICULTY_SLIDERS.md` presets/sliders |
 | Co-op | 1 or **2 owners** (owner + son co-manage the same team) |
@@ -76,7 +76,14 @@ Every RHL contract includes a **death waiver**.
 | Playoff revenue | Security (fewer riots), scouting, travel |
 
 - **Ticket pricing vs. riots:** high prices + losing = angry fans → riots damage the arena and cost money.
-- **Simple** finances = only budget & salary cap; **Hardcore** = everything above plus debt and bankruptcy (league takes your team).
+### Simple Finances (DEFAULT — decision)
+Keep money light so Franchise is about hockey, roster, and survival:
+- **One team budget** per season (set by last season's ratings + wins + playoff run).
+- **Salary cap**: player salaries must fit under it.
+- **Death payouts** come out of the budget (so deaths still sting).
+- **Upgrades & staff** are bought from the budget with simple prices.
+- **No** ticket pricing, merch, travel, debt, or bankruptcy. Riots become a simple random event after bad losses.
+- The full table above is kept only as reference for optional Standard/Hardcore modes later (not planned for launch).
 
 ---
 
@@ -86,7 +93,7 @@ Every RHL contract includes a **death waiver**.
 - Meridian sends **demands**: "Play Kowalski more," "We want a fight with Gary on Friday," "Lose this one — the High Rollers need the win."
 - **Comply:** money, better refs, better item odds (subtle).
 - **Refuse:** fines, bad refs, worse Director odds, your games moved to bad time slots (lower revenue).
-- **Network Review:** if ratings are terrible for a whole season, Meridian threatens to **revoke your franchise** (game over in Hardcore).
+- **Network Review:** if ratings are terrible for a whole season, Meridian threatens to **revoke your franchise** (story pressure + budget cut; no game over in Simple finances).
 - Network Pressure setting controls how often this happens.
 
 ---
@@ -165,6 +172,17 @@ Players come from the RHL's grim talent pipeline:
 
 ---
 
+## 13b. Co-op Franchise (DECISION: yes)
+- **Two owners on one save** (owner + son), on the same couch.
+- **Shared control:** either player can manage lines, sim/play games, and handle events.
+- **Big decisions need both** (optional, on by default): trades, contracts over a set amount, releasing players, draft picks in round 1.
+  Both players confirm with their own controller — a "co-sign" screen.
+- **Roles (optional):** e.g. son = **Goalie Coach & Starting Goalie** (goalie decisions are his), owner = **GM** (contracts & trades).
+- **Game nights:** son in net, owner as skater, AI fills the rest — the default couch setup for played games.
+- Each player keeps their own controls, assists, and User sliders.
+
+---
+
 ## 14. Sim Engine (tech)
 - Stat-based game simulation: uses player attributes, lines, tactics, injuries, team style, Hype, and random events (fights, deaths, injuries).
 - Produces box scores, play-by-play text, and highlight "headlines."
@@ -176,17 +194,18 @@ Players come from the RHL's grim talent pipeline:
 ## 15. Build Order
 1. League structure, schedule, standings, sim engine (simple)
 2. Roster, lines, attributes, injuries, permadeath
-3. Contracts + death waivers + simple finances
+3. Contracts + death waivers + **Simple finances** (budget, cap, death payouts)
 4. Draft + free agency + trades (basic AI GMs)
 5. Network relationship + events
 6. Staff + arena upgrades
 7. Legacy (memorial wall, records)
-8. Hardcore finances, AI GM personalities, scouting fog
-9. Co-op franchise (two owners)
+8. AI GM personalities, scouting fog
+9. **Co-op franchise** (two owners)
+10. (Optional, later) Standard/Hardcore finances
 
 ---
 
-## Open Questions
-- Default season length: 28 games OK?
-- Co-op franchise (owner + son co-managing) — wanted?
-- Finances depth: Standard default, or keep it Simple?
+## Decisions (Oct 2026)
+- Default season length: **28 games**.
+- **Co-op franchise: yes** (two owners, co-sign big decisions, optional roles).
+- Finances: **Simple** (budget, salary cap, death payouts). Standard/Hardcore not planned for launch.
