@@ -135,7 +135,7 @@ Goal: playing goalie should be as fun, deep, and brutal as playing a skater.
 
 ---
 
-## Open Questions
-- Should the goalie be playable in **every** mode (including Franchise sims/Challenges) — assumed yes.
-- Any goalie your son would want added (style, look)?
-- Should the son help design his own goalie mask? (Great first ComfyUI + Blender project.)
+## Decisions (Oct 2026)
+- Goalie playable in every mode.
+- Star goalie roster approved as-is; no additions.
+- Son will not design masks in ComfyUI. Masks come from the **in-game mask editor** plus preset designs (presets can be made with ComfyUI/Blender during development).
