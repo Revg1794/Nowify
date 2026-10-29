@@ -28,6 +28,7 @@ Bland, corporate, smiling — which makes it scarier.
 | **Dale "The Voice" Marrow** | Play-by-play announcer. Over-the-top hype man, sponsor plugs mid-kill. |
 | **Rene "Knuckles" Dupree** | Color commentator. Former RHL enforcer, missing teeth, brutally honest, quietly hates the network. |
 | **Tasha Vane** | Rinkside reporter. Interviews players seconds after kills. |
+| **Desmond Price** | Meridian Talent Relations. Texts you the network's offers in Career. Polite, menacing. |
 | **The Medics** | Meridian's "medical team." Slow to arrive unless you're a ratings star. |
 
 ### Fictional Sponsors (sponsor drops + in-arena ads + satire)

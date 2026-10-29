@@ -42,7 +42,7 @@ Hub (locker room) → Phone check → [Story segment if any]
 | **Set** | Rinkside / tunnel, sponsor backdrop, your player in gear (sweat, blood, new scars) |
 | **Length** | 30–60 s, 1–3 questions |
 | **Content** | Questions about the game, rivals, deaths, sponsors, the network |
-| **Interactive** | **Answer choices** (see §4) with an optional **8-second "live TV" timer** — silence is also an answer |
+| **Interactive** | **Answer choices** (see §4) with an **8-second "live TV" timer (on by default; can be turned off in settings)** — silence is also an answer |
 
 ### 3. *Commissioner's Address*
 | | |
@@ -198,7 +198,7 @@ Type · cast · set · lines (with conditions: act, meters, mentor alive, rivals
 
 ---
 
-## Open Questions
-- 8-second interview timer: on by default, or off?
-- Your custom player starring in sponsor ads — fun?
-- Meridian rep name "Desmond Price" OK?
+## Decisions (Oct 2026)
+- Interview timer: **on by default** (8 s; toggle in settings).
+- **Custom player stars in sponsor ads: yes.**
+- Meridian rep: **Desmond Price** — approved.
