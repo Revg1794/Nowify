@@ -144,7 +144,7 @@ Offline only. Full details in `GAME_MODES.md`.
 
 ## 6. Custom Player & Custom Team Creation
 
-> Full custom player design: `CUSTOM_PLAYER.md`.
+> Full custom player design: `CUSTOM_PLAYER.md`. Full custom team & logo editor design: `CUSTOM_TEAM.md`.
 
 ### Custom Player
 - **Appearance:** face sculpting, body type, skin, hair/beard, scars, tattoos, missing teeth, broken nose, black eyes.
