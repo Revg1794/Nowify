@@ -41,6 +41,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 | Shootout of Death | Best-of-5, 8 s shot clock, goalie & shooter can attack, damage carries over, Item Roulette, 7 variants incl. Gauntlet & Goalie vs Goalie; default OT tiebreaker | `SHOOTOUT.md` |
 | Reveal build | The Pit + goalie-first polish, Shootout vs AI, 3v3 co-op vs AI, 3 items, personal touches ("Brick Wall" called by Dale), quality checklist, reveal-day flow | `REVEAL_BUILD.md` |
 | Practice & tutorial | The Pit (no cameras); Training Camp with skater (Frankie) & goalie (Tommy) tracks + Fast Track; sandbox tools, drills, Shooting Gallery, rewind | `PRACTICE_AND_TUTORIAL.md` |
+| Walkouts & celebrations | Team entrances, star walkouts/celebrations, goalie celebrations, "Brick Wall" personal set, generic library | `WALKOUTS_AND_CELEBRATIONS.md` |
 | Crowd Hype | **Central mechanic** — fuels items, arena Network Events, finishers, Career ratings | `GAME_DESIGN.md` §4 |
 | Violence | Gore level setting: Off / Low / Full | `GAME_DESIGN.md` §2 |
 | Teams | 8 teams in **real cities** + Meridian All-Stars; **named star players** | `LEAGUE_AND_NETWORK.md` |
@@ -67,6 +68,7 @@ and tells you exactly where to begin. The other docs in this folder hold the det
 5. `ARENAS.md`
 6. `LEAGUE_AND_NETWORK.md`
 6b. `STAR_PLAYERS.md`
+6b2. `WALKOUTS_AND_CELEBRATIONS.md`
 6c. `CUSTOM_PLAYER.md`
 6d. `CUSTOM_TEAM.md`
 7. `GAME_MODES.md`

@@ -29,6 +29,7 @@ and that it was made for him.** Small scope, high polish where he'll notice it m
 | **AI** | Basic skater AI + AI goalie + AI shooters (Pro difficulty, tuned so he's challenged but not crushed) |
 | **Presentation** | Meridian ident + "REDLINE HOCKEY LEAGUE" title screen, scorebug, goal horn, crowd loop, Dale's calls (TTS — a handful of lines) |
 | **Profiles** | Pre-made **"Brick Wall"** (Pro controls, goalie, assists off) and **"The Captain"** |
+| **Brick Wall celebrations** | Personal goalie walkout + save/win celebrations (`WALKOUTS_AND_CELEBRATIONS.md` §5) |
 | **Personal touch** | Dale says **"In net tonight… BRICK WALL!"**; a pre-made goalie mask design for him; his favorite number on his jersey |
 | **Controllers** | Xbox + PlayStation both working, correct button icons |
 | **Replays** | Instant replay of goals/saves (recorder exists from the vertical slice) |
