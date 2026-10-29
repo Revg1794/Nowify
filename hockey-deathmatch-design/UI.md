@@ -91,12 +91,13 @@ All menus are fully **controller-first** (Xbox + PlayStation icons auto-switch),
 - **Finisher prompt:** button icons over the target.
 - **Subtitles** for announcers/trash talk (bottom, broadcast caption style).
 - **Replay overlay:** "REPLAY" bug + Meridian wipe in/out; skip with one button.
-- **HUD options:** Full / **Minimal** / Off; HUD scale; per-element toggles.
+- **HUD options:** **Full (default)** / Minimal / Off; HUD scale; per-element toggles.
 
 ---
 
 ## 5. Pause Menu — "We'll Be Right Back"
 - Pausing triggers a quick **"commercial break"** transition (fake sponsor ad freeze-frame), then the pause menu.
+- **Skippable:** press any button to skip straight to the pause menu; Settings toggle to turn the transition off entirely.
 - Options: Resume · Controls · Sliders · Settings · Line changes/strategy · Restart · Quit.
 - Each player can open their own controls/assists from pause.
 
@@ -172,7 +173,9 @@ All menus are fully **controller-first** (Xbox + PlayStation icons auto-switch),
 
 ---
 
-## Open Questions
-- Default HUD: Full or Minimal?
-- "Commercial break" pause transition — fun or annoying? (Can be turned off.)
-- Profile names to pre-create (owner + son)?
+## Decisions (Oct 2026)
+- Default HUD: **Full**.
+- "Commercial break" pause: **yes**, skippable with any button, and can be turned off.
+- Pre-made profiles (renameable):
+  - **"The Captain"** — owner (skater, Arcade scheme, Partial assists)
+  - **"Brick Wall"** — son (goalie, Pro scheme, assists Off)
